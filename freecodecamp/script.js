@@ -1314,3 +1314,1177 @@ Hello world
 
 //45
 
+<style>
+  .injected-text {
+    margin-bottom: -25px;
+    text-align: center;
+  }
+
+  .box {
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    text-align: center;
+  }
+
+  .yellow-box {
+    background-color: yellow;
+    padding: 10px;
+  }
+
+  .red-box {
+    background-color: crimson;
+    color: #fff;
+    padding: 20px;
+    margin: 20px;
+  }
+
+  .blue-box {
+    background-color: blue;
+    color: #fff;
+    padding: 20px;
+    margin: 20px;
+  }
+</style>
+<h5 class="injected-text">margin</h5>
+
+<div class="box yellow-box">
+  <h5 class="box red-box">padding</h5>
+  <h5 class="box blue-box">padding</h5>
+</div>
+
+//46
+
+<style>
+  .injected-text {
+    margin-bottom: -25px;
+    text-align: center;
+  }
+
+  .box {
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    text-align: center;
+  }
+
+  .yellow-box {
+    background-color: yellow;
+    padding: 10px;
+  }
+
+  .red-box {
+    background-color: crimson;
+    color: #fff;
+    padding: 20px;
+    margin: -15px;
+  }
+
+  .blue-box {
+    background-color: blue;
+    color: #fff;
+    padding: 20px;
+    margin: -15px;
+  }
+</style>
+
+<div class="box yellow-box">
+  <h5 class="box red-box">padding</h5>
+  <h5 class="box blue-box">padding</h5>
+</div>
+
+//47
+
+<style>
+  .injected-text {
+    margin-bottom: -25px;
+    text-align: center;
+  }
+
+  .box {
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    text-align: center;
+  }
+
+  .yellow-box {
+    background-color: yellow;
+    padding: 10px;
+  }
+
+  .red-box {
+    background-color: crimson;
+    color: #fff;
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+  }
+
+  .blue-box {
+    background-color: blue;
+    color: #fff;
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+  }
+</style>
+<h5 class="injected-text">margin</h5>
+
+<div class="box yellow-box">
+  <h5 class="box red-box">padding</h5>
+  <h5 class="box blue-box">padding</h5>
+</div>
+
+//48
+
+<style>
+  .injected-text {
+    margin-bottom: -25px;
+    text-align: center;
+  }
+
+  .box {
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    text-align: center;
+  }
+
+  .yellow-box {
+    background-color: yellow;
+    padding: 10px;
+  }
+
+  .red-box {
+    background-color: crimson;
+    color: #fff;
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+  }
+
+  .blue-box {
+    background-color: blue;
+    color: #fff;
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+  }
+</style>
+<h5 class="injected-text">margin</h5>
+
+<div class="box yellow-box">
+  <h5 class="box red-box">padding</h5>
+  <h5 class="box blue-box">padding</h5>
+</div>
+
+//49
+
+<style>
+  .injected-text {
+    margin-bottom: -25px;
+    text-align: center;
+  }
+
+  .box {
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    text-align: center;
+  }
+
+  .yellow-box {
+    background-color: yellow;
+    padding: 20px 40px 20px 40px;
+  }
+
+  .red-box {
+    background-color: crimson;
+    color: #fff;
+    padding: 20px 40px 20px 40px;
+  }
+
+  .blue-box {
+    background-color: blue;
+    color: #fff;
+    padding: 40px 20px 20px 40px;
+  }
+</style>
+<h5 class="injected-text">margin</h5>
+
+<div class="box yellow-box">
+  <h5 class="box red-box">padding</h5>
+  <h5 class="box blue-box">padding</h5>
+</div>
+
+//50
+
+<style>
+  .injected-text {
+    margin-bottom: -25px;
+    text-align: center;
+  }
+
+  .box {
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    text-align: center;
+  }
+
+  .yellow-box {
+    background-color: yellow;
+    padding: 20px 40px 20px 40px;
+  }
+
+  .red-box {
+    background-color: crimson;
+    color: #fff;
+    margin: 20px 40px 20px 40px;
+  }
+
+  .blue-box {
+    background-color: blue;
+    color: #fff;
+    margin: 40px 20px 20px 40px;
+  }
+</style>
+<h5 class="injected-text">margin</h5>
+
+<div class="box yellow-box">
+  <h5 class="box red-box">padding</h5>
+  <h5 class="box blue-box">padding</h5>
+</div>
+
+//51
+
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+<style>
+ [type= 'checkbox' ] {
+  margin: 10px 0px 15px 0px;
+}
+  .red-text {
+    color: red;
+  }
+
+  h2 {
+    font-family: Lobster, monospace;
+  }
+
+  p {
+    font-size: 16px;
+    font-family: monospace;
+  }
+
+  .thick-green-border {
+    border-color: green;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 50%;
+  }
+
+  .smaller-image {
+    width: 100px;
+  }
+
+  .silver-background {
+    background-color: silver;
+  }
+
+</style>
+
+<h2 class="red-text">CatPhotoApp</h2>
+<main>
+  <p class="red-text">Click here to view more <a href="#">cat photos</a>.</p>
+
+  <a href="#"><img class="smaller-image thick-green-border" src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+
+  <div class="silver-background">
+    <p>Things cats love:</p>
+    <ul>
+      <li>cat nip</li>
+      <li>laser pointers</li>
+      <li>lasagna</li>
+    </ul>
+    <p>Top 3 things cats hate:</p>
+    <ol>
+      <li>flea treatment</li>
+      <li>thunder</li>
+      <li>other cats</li>
+    </ol>
+  </div>
+
+  <form action="https://freecatphotoapp.com/submit-cat-photo" id="cat-photo-form">
+    <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
+    <label><input type="radio" name="indoor-outdoor"> Outdoor</label><br>
+    <label><input type="checkbox" name="personality" checked> Loving</label>
+    <label><input type="checkbox" name="personality"> Lazy</label>
+    <label><input type="checkbox" name="personality"> Energetic</label><br>
+    <input type="text" placeholder="cat photo URL" required>
+    <button type="submit">Submit</button>
+  </form>
+</main>
+
+//52
+
+<style>
+  .injected-text {
+    margin-bottom: -25px;
+    text-align: center;
+  }
+
+  .box {
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    text-align: center;
+  }
+
+  .yellow-box {
+    background-color: yellow;
+    padding: 20px 40px 20px 40px;
+  }
+
+  .red-box {
+    background-color: red;
+    margin: 20px 40px 20px 40px;
+    padding: 1.5em;
+  }
+
+  .green-box {
+    background-color: green;
+    margin: 20px 40px 20px 40px;
+  }
+</style>
+<h5 class="injected-text">margin</h5>
+
+<div class="box yellow-box">
+  <h5 class="box red-box">padding</h5>
+  <h5 class="box green-box">padding</h5>
+</div>
+
+//53
+
+<style>
+body {
+  background-color: black;
+}
+</style>
+
+//54
+
+<h1>Hello World</h1>
+<style>
+  body {
+    background-color: black;
+    color: green;
+    font-family: monospace;
+  }
+
+</style>
+
+//54
+
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+  .pink-text{
+    color: pink;
+  }
+</style>
+<h1 class="pink-text">Hello World!</h1>
+
+//55
+
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+  .pink-text {
+    color: pink;
+  }
+  .blue-text {
+    color: blue;
+  }
+</style>
+<h1 class="pink-text blue-text">Hello World!</h1>
+
+//56
+
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+  .pink-text {
+    color: pink;
+  }
+  .blue-text {
+    color: blue;
+  }
+  #orange-text{
+    color: orange;
+  }
+</style>
+<h1 id="orange-text" class="pink-text blue-text">Hello World!</h1>
+
+//57
+
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+  #orange-text {
+    color: orange;
+  }
+  .pink-text {
+    color: pink;
+  }
+  .blue-text {
+    color: blue;
+  }
+</style>
+<h1 style="color: white;" id="orange-text" class="pink-text blue-text">Hello World!</h1>
+
+//58
+
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+  #orange-text {
+    color: orange;
+  }
+  .pink-text {
+    color: pink !important;
+  }
+  .blue-text {
+    color: blue;
+  }
+</style>
+<h1 id="orange-text" class="pink-text blue-text" style="color: white">Hello World!</h1>
+
+//59
+
+<style>
+  body {
+    background-color: #000000;
+  }
+</style>
+
+//60
+
+<style>
+  .red-text {
+    color: #FF0000;
+  }
+  .green-text {
+    color: #00FF00;
+  }
+  .dodger-blue-text {
+    color: #1E90FF;
+  }
+  .orange-text {
+    color: #FFA500;
+  }
+</style>
+
+<h1 class="red-text">I am red!</h1>
+
+<h1 class="green-text">I am green!</h1>
+
+<h1 class="dodger-blue-text">I am dodger blue!</h1>
+
+<h1 class="orange-text">I am orange!</h1>
+
+//61
+
+<style>
+  .red-text {
+    color: #F00;
+  }
+  .fuchsia-text {
+    color: #F0F;
+  }
+  .cyan-text {
+    color: #0FF;
+  }
+  .green-text {
+    color: #0F0;
+  }
+</style>
+
+<h1 class="red-text">I am red!</h1>
+
+<h1 class="fuchsia-text">I am fuchsia!</h1>
+
+<h1 class="cyan-text">I am cyan!</h1>
+
+<h1 class="green-text">I am green!</h1>
+
+//62
+
+<style>
+  body {
+    background-color: rgb(0, 0, 0);
+  }
+</style>
+
+//63
+
+<style>
+  .red-text {
+    color: rgb(255, 0, 0);
+  }
+  .orchid-text {
+    color: rgb(218, 112, 214);
+  }
+  .sienna-text {
+    color: rgb(160, 82, 45);
+  }
+  .blue-text {
+    color: rgb(0, 0, 255);
+  }
+</style>
+
+<h1 class="red-text">I am red!</h1>
+
+<h1 class="orchid-text">I am orchid!</h1>
+
+<h1 class="sienna-text">I am sienna!</h1>
+
+<h1 class="blue-text">I am blue!</h1>
+
+//64
+
+<style>
+  .penguin {
+
+    /* Only change code below this line */
+    --penguin-skin: gray;
+    --penguin-belly: white;
+    --penguin-beak: orange;
+    /* Only change code above this line */
+
+    position: relative;
+    margin: auto;
+    display: block;
+    margin-top: 5%;
+    width: 300px;
+    height: 300px;
+  }
+
+  .penguin-top {
+    top: 10%;
+    left: 25%;
+    background: var(--penguin-skin, gray);
+    width: 50%;
+    height: 45%;
+    border-radius: 70% 70% 60% 60%;
+  }
+
+  .penguin-bottom {
+    top: 40%;
+    left: 23.5%;
+    background: var(--penguin-skin, gray);
+    width: 53%;
+    height: 45%;
+    border-radius: 70% 70% 100% 100%;
+  }
+
+  .right-hand {
+    top: 0%;
+    left: -5%;
+    background: var(--penguin-skin, gray);
+    width: 30%;
+    height: 60%;
+    border-radius: 30% 30% 120% 30%;
+    transform: rotate(45deg);
+    z-index: -1;
+  }
+
+  .left-hand {
+    top: 0%;
+    left: 75%;
+    background: var(--penguin-skin, gray);
+    width: 30%;
+    height: 60%;
+    border-radius: 30% 30% 30% 120%;
+    transform: rotate(-45deg);
+    z-index: -1;
+  }
+
+  .right-cheek {
+    top: 15%;
+    left: 35%;
+    background: var(--penguin-belly, white);
+    width: 60%;
+    height: 70%;
+    border-radius: 70% 70% 60% 60%;
+  }
+
+  .left-cheek {
+    top: 15%;
+    left: 5%;
+    background: var(--penguin-belly, white);
+    width: 60%;
+    height: 70%;
+    border-radius: 70% 70% 60% 60%;
+  }
+
+  .belly {
+    top: 60%;
+    left: 2.5%;
+    background: var(--penguin-belly, white);
+    width: 95%;
+    height: 100%;
+    border-radius: 120% 120% 100% 100%;
+  }
+
+  .right-feet {
+    top: 85%;
+    left: 60%;
+    background: var(--penguin-beak, orange);
+    width: 15%;
+    height: 30%;
+    border-radius: 50% 50% 50% 50%;
+    transform: rotate(-80deg);
+    z-index: -2222;
+  }
+
+  .left-feet {
+    top: 85%;
+    left: 25%;
+    background: var(--penguin-beak, orange);
+    width: 15%;
+    height: 30%;
+    border-radius: 50% 50% 50% 50%;
+    transform: rotate(80deg);
+    z-index: -2222;
+  }
+
+  .right-eye {
+    top: 45%;
+    left: 60%;
+    background: black;
+    width: 15%;
+    height: 17%;
+    border-radius: 50%;
+  }
+
+  .left-eye {
+    top: 45%;
+    left: 25%;
+    background: black;
+    width: 15%;
+    height: 17%;
+    border-radius: 50%;
+  }
+
+  .sparkle {
+    top: 25%;
+    left: 15%;
+    background: white;
+    width: 35%;
+    height: 35%;
+    border-radius: 50%;
+  }
+
+  .blush-right {
+    top: 65%;
+    left: 15%;
+    background: pink;
+    width: 15%;
+    height: 10%;
+    border-radius: 50%;
+  }
+
+  .blush-left {
+    top: 65%;
+    left: 70%;
+    background: pink;
+    width: 15%;
+    height: 10%;
+    border-radius: 50%;
+  }
+
+  .beak-top {
+    top: 60%;
+    left: 40%;
+    background: var(--penguin-beak, orange);
+    width: 20%;
+    height: 10%;
+    border-radius: 50%;
+  }
+
+  .beak-bottom {
+    top: 65%;
+    left: 42%;
+    background: var(--penguin-beak, orange);
+    width: 16%;
+    height: 10%;
+    border-radius: 50%;
+  }
+
+  body {
+    background:#c6faf1;
+  }
+
+  .penguin * {
+    position: absolute;
+  }
+</style>
+<div class="penguin">
+  <div class="penguin-bottom">
+    <div class="right-hand"></div>
+    <div class="left-hand"></div>
+    <div class="right-feet"></div>
+    <div class="left-feet"></div>
+  </div>
+  <div class="penguin-top">
+    <div class="right-cheek"></div>
+    <div class="left-cheek"></div>
+    <div class="belly"></div>
+    <div class="right-eye">
+      <div class="sparkle"></div>
+    </div>
+    <div class="left-eye">
+      <div class="sparkle"></div>
+    </div>
+    <div class="blush-right"></div>
+    <div class="blush-left"></div>
+    <div class="beak-top"></div>
+    <div class="beak-bottom"></div>
+  </div>
+</div>
+
+//65
+
+<style>
+  .penguin {
+    /* Only change code below this line */
+    --penguin-skin: gray;
+    /* Only change code above this line */
+    position: relative;
+    margin: auto;
+    display: block;
+    margin-top: 5%;
+    width: 300px;
+    height: 300px;
+  }
+
+  .penguin-top {
+    top: 10%;
+    left: 25%;
+    background: black;
+    width: 50%;
+    height: 45%;
+    border-radius: 70% 70% 60% 60%;
+  }
+
+  .penguin-bottom {
+    top: 40%;
+    left: 23.5%;
+    background: black;
+    width: 53%;
+    height: 45%;
+    border-radius: 70% 70% 100% 100%;
+  }
+
+  .right-hand {
+    top: 0%;
+    left: -5%;
+    background: black;
+    width: 30%;
+    height: 60%;
+    border-radius: 30% 30% 120% 30%;
+    transform: rotate(45deg);
+    z-index: -1;
+  }
+
+  .left-hand {
+    top: 0%;
+    left: 75%;
+    background: black;
+    width: 30%;
+    height: 60%;
+    border-radius: 30% 30% 30% 120%;
+    transform: rotate(-45deg);
+    z-index: -1;
+  }
+
+  .right-cheek {
+    top: 15%;
+    left: 35%;
+    background: white;
+    width: 60%;
+    height: 70%;
+    border-radius: 70% 70% 60% 60%;
+  }
+
+  .left-cheek {
+    top: 15%;
+    left: 5%;
+    background: white;
+    width: 60%;
+    height: 70%;
+    border-radius: 70% 70% 60% 60%;
+  }
+
+  .belly {
+    top: 60%;
+    left: 2.5%;
+    background: white;
+    width: 95%;
+    height: 100%;
+    border-radius: 120% 120% 100% 100%;
+  }
+
+  .right-feet {
+    top: 85%;
+    left: 60%;
+    background: orange;
+    width: 15%;
+    height: 30%;
+    border-radius: 50% 50% 50% 50%;
+    transform: rotate(-80deg);
+    z-index: -2222;
+  }
+
+  .left-feet {
+    top: 85%;
+    left: 25%;
+    background: orange;
+    width: 15%;
+    height: 30%;
+    border-radius: 50% 50% 50% 50%;
+    transform: rotate(80deg);
+    z-index: -2222;
+  }
+
+  .right-eye {
+    top: 45%;
+    left: 60%;
+    background: black;
+    width: 15%;
+    height: 17%;
+    border-radius: 50%;
+  }
+
+  .left-eye {
+    top: 45%;
+    left: 25%;
+    background: black;
+    width: 15%;
+    height: 17%;
+    border-radius: 50%;
+  }
+
+  .sparkle {
+    top: 25%;
+    left: 15%;
+    background: white;
+    width: 35%;
+    height: 35%;
+    border-radius: 50%;
+  }
+
+  .blush-right {
+    top: 65%;
+    left: 15%;
+    background: pink;
+    width: 15%;
+    height: 10%;
+    border-radius: 50%;
+  }
+
+  .blush-left {
+    top: 65%;
+    left: 70%;
+    background: pink;
+    width: 15%;
+    height: 10%;
+    border-radius: 50%;
+  }
+
+  .beak-top {
+    top: 60%;
+    left: 40%;
+    background: orange;
+    width: 20%;
+    height: 10%;
+    border-radius: 50%;
+  }
+
+  .beak-bottom {
+    top: 65%;
+    left: 42%;
+    background: orange;
+    width: 16%;
+    height: 10%;
+    border-radius: 50%;
+  }
+
+  body {
+    background:#c6faf1;
+  }
+
+  .penguin * {
+    position: absolute;
+  }
+</style>
+<div class="penguin">
+  <div class="penguin-bottom">
+    <div class="right-hand"></div>
+    <div class="left-hand"></div>
+    <div class="right-feet"></div>
+    <div class="left-feet"></div>
+  </div>
+  <div class="penguin-top">
+    <div class="right-cheek"></div>
+    <div class="left-cheek"></div>
+    <div class="belly"></div>
+    <div class="right-eye">
+      <div class="sparkle"></div>
+    </div>
+    <div class="left-eye">
+      <div class="sparkle"></div>
+    </div>
+    <div class="blush-right"></div>
+    <div class="blush-left"></div>
+    <div class="beak-top"></div>
+    <div class="beak-bottom"></div>
+  </div>
+</div>
+
+//66
+
+<style>
+  .penguin {
+    --penguin-skin: gray;
+    position: relative;
+    margin: auto;
+    display: block;
+    margin-top: 5%;
+    width: 300px;
+    height: 300px;
+  }
+
+  .penguin-top {
+    top: 10%;
+    left: 25%;
+
+    /* Change code below this line */
+    background: var(--penguin-skin);
+    /* Change code above this line */
+
+    width: 50%;
+    height: 45%;
+    border-radius: 70% 70% 60% 60%;
+  }
+
+  .penguin-bottom {
+    top: 40%;
+    left: 23.5%;
+
+    /* Change code below this line */
+    background: var(--penguin-skin);
+    /* Change code above this line */
+
+    width: 53%;
+    height: 45%;
+    border-radius: 70% 70% 100% 100%;
+  }
+
+  .right-hand {
+    top: 0%;
+    left: -5%;
+
+    /* Change code below this line */
+    background: var(--penguin-skin);
+    /* Change code above this line */
+
+    width: 30%;
+    height: 60%;
+    border-radius: 30% 30% 120% 30%;
+    transform: rotate(45deg);
+    z-index: -1;
+  }
+
+  .left-hand {
+    top: 0%;
+    left: 75%;
+
+    /* Change code below this line */
+    background: var(--penguin-skin);
+    /* Change code above this line */
+
+    width: 30%;
+    height: 60%;
+    border-radius: 30% 30% 30% 120%;
+    transform: rotate(-45deg);
+    z-index: -1;
+  }
+
+  .right-cheek {
+    top: 15%;
+    left: 35%;
+    background: white;
+    width: 60%;
+    height: 70%;
+    border-radius: 70% 70% 60% 60%;
+  }
+
+  .left-cheek {
+    top: 15%;
+    left: 5%;
+    background: white;
+    width: 60%;
+    height: 70%;
+    border-radius: 70% 70% 60% 60%;
+  }
+
+  .belly {
+    top: 60%;
+    left: 2.5%;
+    background: white;
+    width: 95%;
+    height: 100%;
+    border-radius: 120% 120% 100% 100%;
+  }
+
+  .right-feet {
+    top: 85%;
+    left: 60%;
+    background: orange;
+    width: 15%;
+    height: 30%;
+    border-radius: 50% 50% 50% 50%;
+    transform: rotate(-80deg);
+    z-index: -2222;
+  }
+
+  .left-feet {
+    top: 85%;
+    left: 25%;
+    background: orange;
+    width: 15%;
+    height: 30%;
+    border-radius: 50% 50% 50% 50%;
+    transform: rotate(80deg);
+    z-index: -2222;
+  }
+
+  .right-eye {
+    top: 45%;
+    left: 60%;
+    background: black;
+    width: 15%;
+    height: 17%;
+    border-radius: 50%;
+  }
+
+  .left-eye {
+    top: 45%;
+    left: 25%;
+    background: black;
+    width: 15%;
+    height: 17%;
+    border-radius: 50%;
+  }
+
+  .sparkle {
+    top: 25%;
+    left: 15%;
+    background: white;
+    width: 35%;
+    height: 35%;
+    border-radius: 50%;
+  }
+
+  .blush-right {
+    top: 65%;
+    left: 15%;
+    background: pink;
+    width: 15%;
+    height: 10%;
+    border-radius: 50%;
+  }
+
+  .blush-left {
+    top: 65%;
+    left: 70%;
+    background: pink;
+    width: 15%;
+    height: 10%;
+    border-radius: 50%;
+  }
+
+  .beak-top {
+    top: 60%;
+    left: 40%;
+    background: orange;
+    width: 20%;
+    height: 10%;
+    border-radius: 50%;
+  }
+
+  .beak-bottom {
+    top: 65%;
+    left: 42%;
+    background: orange;
+    width: 16%;
+    height: 10%;
+    border-radius: 50%;
+  }
+
+  body {
+    background:#c6faf1;
+  }
+
+  .penguin * {
+    position: absolute;
+  }
+</style>
+<div class="penguin">
+  <div class="penguin-bottom">
+    <div class="right-hand"></div>
+    <div class="left-hand"></div>
+    <div class="right-feet"></div>
+    <div class="left-feet"></div>
+  </div>
+  <div class="penguin-top">
+    <div class="right-cheek"></div>
+    <div class="left-cheek"></div>
+    <div class="belly"></div>
+    <div class="right-eye">
+      <div class="sparkle"></div>
+    </div>
+    <div class="left-eye">
+      <div class="sparkle"></div>
+    </div>
+    <div class="blush-right"></div>
+    <div class="blush-left"></div>
+    <div class="beak-top"></div>
+    <div class="beak-bottom"></div>
+  </div>
+</div>
+
+//67
+
+

@@ -58,3 +58,54 @@ function strCount(str, letter) {
 }
 
 //7
+
+function nearestSq(n) {
+  let sqrtOfN = Math.trunc(Math.sqrt(n));
+  let result =
+    Math.abs(sqrtOfN * sqrtOfN - n) >
+    Math.abs((sqrtOfN + 1) * (sqrtOfN + 1) - n)
+      ? sqrtOfN + 1
+      : sqrtOfN;
+
+  if (sqrtOfN * sqrtOfN === n) {
+    result = n;
+  } else {
+    result = result * result;
+  }
+  return result; // your code
+}
+
+//8
+
+function mystery() {
+  var results = { sanity: 'Hello' };
+  return results;
+}
+
+//9
+
+function isDivisible(n, x, y) {
+  return n % x == 0 && n % y == 0 ? true : false;
+}
+
+//10
+
+function century(year) {
+  let centuryCount = 0;
+  while (year > 0) {
+    year = year - 100;
+    centuryCount = centuryCount + 1;
+  }
+  return centuryCount; // Finish this :)
+}
+
+//11
+
+function getStatus(isBusy) {
+  var msg = isBusy ? 'busy' : 'available';
+  return {
+    status: msg,
+  };
+}
+
+//12
