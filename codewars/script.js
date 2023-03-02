@@ -109,3 +109,47 @@ function getStatus(isBusy) {
 }
 
 //12
+
+function evenOrOdd(number) {
+  if (number % 2 == 0) {
+    return 'Even';
+  } else {
+    return 'Odd';
+  }
+}
+
+//13
+
+function squareSum(numbers) {
+  let sum = 0;
+  for (let i = 0; i < numbers.length; i++) {
+    sum += numbers[i] ** 2;
+  }
+  return sum;
+}
+
+//14
+
+function squareSum(numbers) {
+  let sum = 0;
+  for (let i = 0; i < numbers.length; i++) {
+    sum += numbers[i] ** 2;
+  }
+  return sum;
+}
+
+//15
+
+function mango(quantity, price) {
+  let totalCost = 0;
+  while (quantity > 0) {
+    if (quantity > 2) {
+      quantity -= 3;
+      totalCost += 2 * price;
+    } else {
+      totalCost += price;
+      quantity -= 1;
+    }
+  }
+  return totalCost;
+}
