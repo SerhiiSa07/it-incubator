@@ -153,3 +153,9 @@ function mango(quantity, price) {
   }
   return totalCost;
 }
+
+//16
+
+function solution(str) {
+  return str.split('').reverse().join('');
+}
