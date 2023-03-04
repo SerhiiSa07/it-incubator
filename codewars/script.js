@@ -159,3 +159,38 @@ function mango(quantity, price) {
 function solution(str) {
   return str.split('').reverse().join('');
 }
+
+//17
+
+function simpleMultiplication(number) {
+  {
+    return number * (number % 2 > 0 ? 9 : 8);
+  } // your code........
+}
+
+//18
+
+function createArray(number) {
+  var newArray = [];
+
+  for (var counter = 1; counter <= number; counter++) {
+    newArray.push(counter);
+  }
+
+  return newArray;
+}
+
+//19
+
+const quarterOf = (month) => {
+  if (month <= 3) {
+    return 1;
+  } else if (month <= 6) {
+    return 2;
+  } else if (month <= 9) {
+    return 3;
+  } else if (month <= 12) {
+    return 4;
+  }
+  // Your code here
+};
