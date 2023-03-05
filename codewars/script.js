@@ -194,3 +194,158 @@ const quarterOf = (month) => {
   }
   // Your code here
 };
+
+//20
+
+function litres(time) {
+  return Math.floor(time / 2);
+}
+
+//21
+
+let firstFakeName = {
+  A: 'Alpha',
+  B: 'Beta',
+  C: 'Cache',
+  D: 'Data',
+  E: 'Energy',
+  F: 'Function',
+  G: 'Glitch',
+  H: 'Half-life',
+  I: 'Ice',
+  J: 'Java',
+  K: 'Keystroke',
+  L: 'Logic',
+  M: 'Malware',
+  N: 'Nagware',
+  O: 'OS',
+  P: 'Phishing',
+  Q: 'Quantum',
+  R: 'RAD',
+  S: 'Strike',
+  T: 'Trojan',
+  U: 'Ultraviolet',
+  V: 'Vanilla',
+  W: 'WiFi',
+  X: 'Xerox',
+  Y: 'Y',
+  Z: 'Zero',
+};
+let surFakeName = {
+  A: 'Analogue',
+  B: 'Bomb',
+  C: 'Catalyst',
+  D: 'Discharge',
+  E: 'Electron',
+  F: 'Faraday',
+  G: 'Gig',
+  H: 'Hacker',
+  I: 'IP',
+  J: 'Jabber',
+  K: 'Killer',
+  L: 'Lazer',
+  M: 'Mike',
+  N: 'n00b',
+  O: 'Overclock',
+  P: 'Payload',
+  Q: 'Quark',
+  R: 'Roy',
+  S: 'Spy',
+  T: 'T-Rex',
+  U: 'Unit',
+  V: 'Virus',
+  W: 'Worm',
+  X: 'X',
+  Y: 'Yob',
+  Z: 'Zombie',
+};
+
+function aliasGen(firstname, surname) {
+  // Get first char of each string and convert it to Upper case in case its lower case
+  let firstLetterOfFirstName = firstname.charAt(0).toUpperCase();
+  let firstLetterOfSurName = surname.charAt(0).toUpperCase();
+  // initialize name and sur variables to return them later
+  let name, sur;
+  // get values of  both our fake name and sur fake name obj
+  let firstValues = Object.values(firstFakeName);
+  let surValues = Object.values(surFakeName);
+
+  if (
+    // check if the first char is not a number
+    isNaN(Number(firstLetterOfFirstName)) &&
+    isNaN(Number(firstLetterOfSurName))
+  ) {
+    // loop through firstValues array
+    for (let i = 0; i < firstValues.length; i++) {
+      // check if the first letter of the current value is equal to the first letter
+      // of the name received as an argument
+      if (firstValues[i].charAt(0).toUpperCase() === firstLetterOfFirstName)
+        // if the letters are equal assign the fake name to the name variable we want to return
+        name = firstValues[i];
+    }
+    // check if the first letter of the current value is equal to the first letter
+    // of the surname received as an argument
+    for (let i = 0; i < surValues.length; i++) {
+      // if the letters are equal assign the fake surname to the sur variable we want to return
+      if (surValues[i].charAt(0).toUpperCase() === firstLetterOfSurName)
+        sur = surValues[i];
+    }
+    // return the alias
+    return `${name} ${sur}`;
+    // in case one of the first chars of the argument strings is a number return this:
+  } else return 'Your name must start with a letter from A - Z.';
+}
+
+//22
+
+function reverseWords(str) {
+  return str.split(' ').reverse().join(' '); // reverse those words
+}
+
+//23
+
+function describeAge(age) {
+  return (
+    "You're a(n) " +
+    (age < 13 ? 'kid' : age < 18 ? 'teenager' : age < 65 ? 'adult' : 'elderly')
+  );
+}
+
+//24
+
+var cubeChecker = function (volume, side) {
+  if (side <= 0 || volume <= 0) return false;
+  console.log(volume ** (1 / 3));
+  return Math.cbrt(volume) === side;
+};
+
+//25
+
+function numberToPower(number, power) {
+  let total = 1;
+  for (let i = 1; i <= power; i++) {
+    total = total * number;
+  }
+  return total;
+  // Code here
+}
+
+//26
+
+function mystery() {
+  var results = { sanity: 'Hello' };
+  return results;
+}
+
+//27
+
+function powersOfTwo(n) {
+  var myArray = [];
+  for (var i = 0; i <= n; i++) {
+    myArray.push(2 ** i);
+  }
+  return myArray;
+}
+
+const result = powersOfTwo(2);
+console.log(result);
