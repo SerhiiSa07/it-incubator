@@ -349,3 +349,54 @@ function powersOfTwo(n) {
 
 const result = powersOfTwo(2);
 console.log(result);
+
+//28
+
+function otherAngle(a, b) {
+  return 180 - (a + b);
+}
+
+//29
+
+function past(h, m, s) {
+  const convertHours = h * 60 * 60 * 1000;
+  const convertMinutes = m * 60 * 1000;
+  const convertSeconds = s * 1000;
+  return convertHours + convertMinutes + convertSeconds; //#Happy Coding! ^_^
+}
+
+//30
+
+function gooseFilter(birds) {
+  var geese = ['African', 'Roman Tufted', 'Toulouse', 'Pilgrim', 'Steinbacher'];
+  return birds.filter((val) => geese.indexOf(val) === -1);
+  // return an array containing all of the strings in the input array except those that match strings in geese
+}
+
+//31
+
+function repeatStr(n, s) {
+  let newString = '';
+  while (n > 0) {
+    newString += s;
+    n--;
+  }
+  return newString;
+}
+
+//32
+
+function howManyLightsabersDoYouOwn(name) {
+  return name === 'Zach' ? 18 : 0;
+}
+
+//33
+
+function grow(x) {
+  let result = 1;
+  for (let i = 0; i < x.length; i++) {
+    result *= x[i];
+  }
+  return result;
+}
+e;

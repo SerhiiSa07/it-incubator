@@ -5144,4 +5144,1485 @@ animation-iteration-count: infinite;
 
 //130
 
+<body>
 
+  <header>
+    <h1>Training with Camper Cat</h1>
+  </header>
+
+
+  <main>
+    <section id="stealth">
+      <h2>Stealth &amp; Agility Training</h2>
+      <article><h3>Climb foliage quickly using a minimum spanning tree approach</h3></article>
+      <article><h3>No training is NP-complete without parkour</h3></article>
+    </section>
+    <section id="combat">
+      <h2>Combat Training</h2>
+      <article><h3>Dispatch multiple enemies with multithreaded tactics</h3></article>
+      <article><h3>Goodbye world: 5 proven ways to knock out an opponent</h3></article>
+    </section>
+    <section id="weapons">
+      <h2>Weapons Training</h2>
+      <article><h3>Swords: the best tool to literally divide and conquer</h3></article>
+      <article><h3>Breadth-first or depth-first in multi-weapon training?</h3></article>
+    </section>
+  </main>
+</body>
+
+//131
+
+<body>
+  <header>
+    <h1>Training with Camper Cat</h1>
+
+    <nav>
+      <ul>
+        <li><a href="#stealth">Stealth &amp; Agility</a></li>
+        <li><a href="#combat">Combat</a></li>
+        <li><a href="#weapons">Weapons</a></li>
+      </ul>
+    </nav>
+
+  </header>
+  <main>
+    <section id="stealth">
+      <h2>Stealth &amp; Agility Training</h2>
+      <article><h3>Climb foliage quickly using a minimum spanning tree approach</h3></article>
+      <article><h3>No training is NP-complete without parkour</h3></article>
+    </section>
+    <section id="combat">
+      <h2>Combat Training</h2>
+      <article><h3>Dispatch multiple enemies with multithreaded tactics</h3></article>
+      <article><h3>Goodbye world: 5 proven ways to knock out an opponent</h3></article>
+    </section>
+    <section id="weapons">
+      <h2>Weapons Training</h2>
+      <article><h3>Swords: the best tool to literally divide and conquer</h3></article>
+      <article><h3>Breadth-first or depth-first in multi-weapon training?</h3></article>
+    </section>
+  </main>
+</body>
+
+//132
+
+<body>
+  <header>
+    <h1>Training</h1>
+    <nav>
+      <ul>
+        <li><a href="#stealth">Stealth &amp; Agility</a></li>
+        <li><a href="#combat">Combat</a></li>
+        <li><a href="#weapons">Weapons</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="stealth">
+      <h2>Stealth &amp; Agility Training</h2>
+      <article><h3>Climb foliage quickly using a minimum spanning tree approach</h3></article>
+      <article><h3>No training is NP-complete without parkour</h3></article>
+    </section>
+    <section id="combat">
+      <h2>Combat Training</h2>
+      <article><h3>Dispatch multiple enemies with multithreaded tactics</h3></article>
+      <article><h3>Goodbye world: 5 proven ways to knock out an opponent</h3></article>
+    </section>
+    <section id="weapons">
+      <h2>Weapons Training</h2>
+      <article><h3>Swords: the best tool to literally divide and conquer</h3></article>
+      <article><h3>Breadth-first or depth-first in multi-weapon training?</h3></article>
+    </section>
+  </main>
+
+
+  <footer>&copy; 2018 Camper Cat</footer>
+
+
+</body>
+
+//133
+
+<body>
+  <header>
+    <h1>Real Coding Ninjas</h1>
+  </header>
+  <main>
+    <p>A sound clip of Zersiax's screen reader in action.</p>
+<audio id="meowClip" controls>
+  <source src="https://s3.amazonaws.com/freecodecamp/screen-reader.mp3" type="audio/mpeg">
+</audio>
+
+
+  </main>
+</body>
+
+//134
+
+<body>
+  <header>
+    <h1>Training</h1>
+    <nav>
+      <ul>
+        <li><a href="#stealth">Stealth &amp; Agility</a></li>
+        <li><a href="#combat">Combat</a></li>
+        <li><a href="#weapons">Weapons</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+
+      <!-- Only change code below this line -->
+      <figure>
+        <!-- Stacked bar chart will go here -->
+        <br>
+        <figcaption>Breakdown per week of time to spend training in stealth, combat, and weapons.</figcaption>
+      </figure>
+      <!-- Only change code above this line -->
+
+    </section>
+    <section id="stealth">
+      <h2>Stealth &amp; Agility Training</h2>
+      <article><h3>Climb foliage quickly using a minimum spanning tree approach</h3></article>
+      <article><h3>No training is NP-complete without parkour</h3></article>
+    </section>
+    <section id="combat">
+      <h2>Combat Training</h2>
+      <article><h3>Dispatch multiple enemies with multithreaded tactics</h3></article>
+      <article><h3>Goodbye world: 5 proven ways to knock out an opponent</h3></article>
+    </section>
+    <section id="weapons">
+      <h2>Weapons Training</h2>
+      <article><h3>Swords: the best tool to literally divide and conquer</h3></article>
+      <article><h3>Breadth-first or depth-first in multi-weapon training?</h3></article>
+    </section>
+  </main>
+  <footer>&copy; 2018 Camper Cat</footer>
+</body>
+
+//135
+
+<body>
+  <header>
+    <h1>Deep Thoughts with Master Camper Cat</h1>
+  </header>
+  <section>
+    <form>
+      <p>Sign up to receive Camper Cat's blog posts by email here!</p>
+
+
+      <label for="email">>Email:</label>
+      <input type="text" id="email" name="email">
+
+
+      <input type="submit" name="submit" value="Submit">
+    </form>
+  </section>
+  <article>
+    <h2>The Garfield Files: Lasagna as Training Fuel?</h2>
+    <p>The internet is littered with varying opinions on nutritional paradigms, from catnip paleo to hairball cleanses. But let's turn our attention to an often overlooked fitness fuel, and examine the protein-carb-NOM trifecta that is lasagna...</p>
+  </article>
+  <img src="samuraiSwords.jpeg" alt="">
+  <article>
+    <h2>Defeating your Foe: the Red Dot is Ours!</h2>
+    <p>Felines the world over have been waging war on the most persistent of foes. This red nemesis combines both cunning stealth and lightning speed. But chin up, fellow fighters, our time for victory may soon be near...</p>
+  </article>
+  <img src="samuraiSwords.jpeg" alt="">
+  <article>
+    <h2>Is Chuck Norris a Cat Person?</h2>
+    <p>Chuck Norris is widely regarded as the premier martial artist on the planet, and it's a complete coincidence that anyone who disagrees with this fact mysteriously disappears soon after. But the real question is, is he a cat person?...</p>
+  </article>
+  <footer>&copy; 2018 Camper Cat</footer>
+</body>
+
+//136
+
+<body>
+  <header>
+    <h1>Deep Thoughts with Master Camper Cat</h1>
+  </header>
+  <section>
+    <form>
+      <p>Sign up to receive Camper Cat's blog posts by email here!</p>
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email">
+
+
+      <!-- Only change code below this line -->
+      <fieldset>
+        <legend>What level ninja are you?</legend>
+        <input id="newbie" type="radio" name="levels" value="newbie">
+        <label for="newbie">Newbie Kitten</label><br>
+        <input id="intermediate" type="radio" name="levels" value="intermediate">
+        <label for="intermediate">Developing Student</label><br>
+        <input id="master" type="radio" name="levels" value="master">
+        <label for="master">Master</label>
+      </fieldset>
+      <!-- Only change code above this line -->
+
+
+      <input type="submit" name="submit" value="Submit">
+    </form>
+  </section>
+  <article>
+    <h2>The Garfield Files: Lasagna as Training Fuel?</h2>
+    <p>The internet is littered with varying opinions on nutritional paradigms, from catnip paleo to hairball cleanses. But let's turn our attention to an often overlooked fitness fuel, and examine the protein-carb-NOM trifecta that is lasagna...</p>
+  </article>
+  <img src="samuraiSwords.jpeg" alt="">
+  <article>
+    <h2>Defeating your Foe: the Red Dot is Ours!</h2>
+    <p>Felines the world over have been waging war on the most persistent of foes. This red nemesis combines both cunning stealth and lightning speed. But chin up, fellow fighters, our time for victory may soon be near...</p>
+  </article>
+  <img src="samuraiSwords.jpeg" alt="">
+  <article>
+    <h2>Is Chuck Norris a Cat Person?</h2>
+    <p>Chuck Norris is widely regarded as the premier martial artist on the planet, and it's a complete coincidence that anyone who disagrees with this fact mysteriously disappears soon after. But the real question is, is he a cat person?...</p>
+  </article>
+  <footer>&copy; 2018 Camper Cat</footer>
+</body>
+
+//137
+
+<body>
+  <header>
+    <h1>Tournaments</h1>
+  </header>
+  <main>
+    <section>
+      <h2>Mortal Kombat Tournament Survey</h2>
+      <form>
+        <p>Tell us the best date for the competition</p>
+        <label for="pickdate">Preferred Date:</label>
+
+        <!-- Only change code below this line -->
+
+<input type="date" id="pickdate" name="date">
+
+        <!-- Only change code above this line -->
+
+        <input type="submit" name="submit" value="Submit">
+      </form>
+    </section>
+  </main>
+  <footer>&copy; 2018 Camper Cat</footer>
+</body>
+
+//138
+
+<body>
+  <header>
+    <h1>Tournaments</h1>
+  </header>
+  <article>
+    <h2>Mortal Kombat Tournament Survey Results</h2>
+
+    <!-- Only change code below this line -->
+
+    <p>Thank you to everyone for responding to Master Camper Cat's survey. The best day to host the vaunted Mortal Kombat tournament is <time datetime="2016-09-15">Thursday, September 15<sup>th</sup></time>. May the best ninja win!</p>
+
+    <!-- Only change code above this line -->
+
+    <section>
+      <h3>Comments:</h3>
+      <article>
+        <p>Posted by: Sub-Zero on <time datetime="2016-08-13T20:01Z">August 13<sup>th</sup></time></p>
+        <p>Johnny Cage better be there, I'll finish him!</p>
+      </article>
+      <article>
+        <p>Posted by: Doge on <time datetime="2016-08-15T08:12Z">August 15<sup>th</sup></time></p>
+        <p>Wow, much combat, so mortal.</p>
+      </article>
+      <article>
+        <p>Posted by: The Grim Reaper on <time datetime="2016-08-16T00:00Z">August 16<sup>th</sup></time></p>
+        <p>Looks like I'll be busy that day.</p>
+      </article>
+    </section>
+  </article>
+  <footer>&copy; 2018 Camper Cat</footer>
+</body>
+
+//139
+
+<head>
+  <style>
+  .sr-only {
+    position: absolute;
+    left: -10000px;
+    width: 1px;
+    height: 1px;
+    top: auto;
+    overflow: hidden;
+  }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Training</h1>
+    <nav>
+      <ul>
+        <li><a href="#stealth">Stealth &amp; Agility</a></li>
+        <li><a href="#combat">Combat</a></li>
+        <li><a href="#weapons">Weapons</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section>
+    <h2>Master Camper Cat's Beginner Three Week Training Program</h2>
+    <figure>
+      <!-- Stacked bar chart of weekly training -->
+      <p>[Stacked bar chart]</p>
+      <br />
+      <figcaption>Breakdown per week of time to spend training in stealth, combat, and weapons.</figcaption>
+    </figure>
+    <table class="sr-only">
+      <caption>Hours of Weekly Training in Stealth, Combat, and Weapons</caption>
+      <thead>
+        <tr>
+          <th></th>
+          <th scope="col">Stealth &amp; Agility</th>
+          <th scope="col">Combat</th>
+          <th scope="col">Weapons</th>
+          <th scope="col">Total</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Week One</th>
+          <td>3</td>
+          <td>5</td>
+          <td>2</td>
+          <td>10</td>
+        </tr>
+        <tr>
+          <th scope="row">Week Two</th>
+          <td>4</td>
+          <td>5</td>
+          <td>3</td>
+          <td>12</td>
+        </tr>
+        <tr>
+          <th scope="row">Week Three</th>
+          <td>4</td>
+          <td>6</td>
+          <td>3</td>
+          <td>13</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+  <section id="stealth">
+    <h2>Stealth &amp; Agility Training</h2>
+    <article><h3>Climb foliage quickly using a minimum spanning tree approach</h3></article>
+    <article><h3>No training is NP-complete without parkour</h3></article>
+  </section>
+  <section id="combat">
+    <h2>Combat Training</h2>
+    <article><h3>Dispatch multiple enemies with multithreaded tactics</h3></article>
+    <article><h3>Goodbye, world: 5 proven ways to knock out an opponent</h3></article>
+  </section>
+  <section id="weapons">
+    <h2>Weapons Training</h2>
+    <article><h3>Swords: the best tool to literally divide and conquer</h3></article>
+    <article><h3>Breadth-first or depth-first in multi-weapon training?</h3></article>
+  </section>
+  <footer>&copy; 2018 Camper Cat</footer>
+</body>
+
+//140
+
+<head>
+  <style>
+  body {
+    color: #636363;
+    background-color: #FFF;
+  }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Deep Thoughts with Master Camper Cat</h1>
+  </header>
+  <article>
+    <h2>A Word on the Recent Catnip Doping Scandal</h2>
+    <p>The influence that catnip has on feline behavior is well-documented, and its use as an herbal supplement in competitive ninja circles remains controversial. Once again, the debate to ban the substance is brought to the public's attention after the high-profile win of Kittytron, a long-time proponent and user of the green stuff, at the Claw of Fury tournament.</p>
+    <p>As I've stated in the past, I firmly believe a true ninja's skills must come from within, with no external influences. My own catnip use shall continue as purely recreational.</p>
+  </article>
+</body>
+
+//141
+
+<head>
+  <style>
+  body {
+    color: hsl(0, 55%, 15%);
+    background-color: hsl(120, 25%, 55%);
+  }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Deep Thoughts with Master Camper Cat</h1>
+  </header>
+  <article>
+    <h2>A Word on the Recent Catnip Doping Scandal</h2>
+    <p>The influence that catnip has on feline behavior is well-documented, and its use as an herbal supplement in competitive ninja circles remains controversial. Once again, the debate to ban the substance is brought to the public's attention after the high-profile win of Kittytron, a long-time proponent and user of the green stuff, at the Claw of Fury tournament.</p>
+    <p>As I've stated in the past, I firmly believe a true ninja's skills must come from within, with no external influences. My own catnip use shall continue as purely recreational.</p>
+  </article>
+</body>
+
+//142
+
+<head>
+  <style>
+  button {
+    color: #003366;
+    background-color: #33FF33;
+    font-size: 14px;
+    padding: 10px;
+  }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Danger!</h1>
+  </header>
+  <button>Delete Internet</button>
+</body>
+
+//143
+
+<body>
+  <header>
+    <h1>Deep Thoughts with Master Camper Cat</h1>
+  </header>
+  <article>
+    <h2>Defeating your Foe: the Red Dot is Ours!</h2>
+    <p>Felines the world over have been waging war on the most persistent of foes. This red nemesis combines both cunning stealth and lightning speed. But chin up, fellow fighters, our time for victory may soon be near.  >Click here for <a href="">information about batteries</a></p>
+  </article>
+</body>
+
+//143
+
+{/* <body>
+  <header>
+    <h1>Deep Thoughts with Master Camper Cat</h1>
+  </header>
+  <article>
+
+
+    <button accesskey="g" id="first"><h2><a id="first" href="">The Garfield Files: Lasagna as Training Fuel?</a></h2></button>
+
+    <p>The internet is littered with varying opinions on nutritional paradigms, from catnip paleo to hairball cleanses. But let's turn our attention to an often overlooked fitness fuel, and examine the protein-carb-NOM trifecta that is lasagna...</p>
+  </article>
+  <article>
+
+
+    <button accesskey="c" id="second"><h2><a id="second" href="">Is Chuck Norris a Cat Person?</a></h2></button>
+
+
+    <p>Chuck Norris is widely regarded as the premier martial artist on the planet, and it's a complete coincidence anyone who disagrees with this fact mysteriously disappears soon after. But the real question is, is he a cat person?...</p>
+  </article>
+  <footer>&copy; 2016 Camper Cat</footer>
+</body>
+
+//145
+
+The HTML tabindex attribute has three distinct functions relating to an element's keyboard focus. When it's on a tag, it indicates that the element can be focused on. The value (an integer that's positive, negative, or zero) determines the behavior.
+
+Certain elements, such as links and form controls, automatically receive keyboard focus when a user tabs through a page. It's in the same order as the elements come in the HTML source markup. This same functionality can be given to other elements, such as div, span, and p, by placing a tabindex="0" attribute on them. Here's an example:
+
+<div tabindex="0">I need keyboard focus!</div>
+Note: A negative tabindex value (typically -1) indicates that an element is focusable, but is not reachable by the keyboard. This method is generally used to bring focus to content programmatically (like when a div used for a pop-up window is activated), and is beyond the scope of these challenges.
+
+Camper Cat created a new survey to collect information about his users. He knows input fields automatically get keyboard focus, but he wants to make sure his keyboard users pause at the instructions while tabbing through the items. Add a tabindex attribute to the p tag and set its value to 0. Bonus - using tabindex also enables the CSS pseudo-class :focus to work on the p tag. */
+
+
+//////////----------------------------------------------/////////////////////
+
+
+<head>
+  <style>
+  p:focus {
+    background-color: yellow;
+  }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ninja Survey</h1>
+  </header>
+  <section>
+    <form>
+
+
+      <p tabindex="0">Instructions: Fill in ALL your information then click <b>Submit</b></p>
+
+
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username"><br>
+      <fieldset>
+        <legend>What level ninja are you?</legend>
+        <input id="newbie" type="radio" name="levels" value="newbie">
+        <label for="newbie">Newbie Kitten</label><br>
+        <input id="intermediate" type="radio" name="levels" value="intermediate">
+        <label for="intermediate">Developing Student</label><br>
+        <input id="master" type="radio" name="levels" value="master">
+        <label for="master">9th Life Master</label>
+      </fieldset>
+      <br>
+      <fieldset>
+      <legend>Select your favorite weapons:</legend>
+      <input id="stars" type="checkbox" name="weapons" value="stars">
+      <label for="stars">Throwing Stars</label><br>
+      <input id="nunchucks" type="checkbox" name="weapons" value="nunchucks">
+      <label for="nunchucks">Nunchucks</label><br>
+      <input id="sai" type="checkbox" name="weapons" value="sai">
+      <label for="sai">Sai Set</label><br>
+      <input id="sword" type="checkbox" name="weapons" value="sword">
+      <label for="sword">Sword</label>
+      </fieldset>
+      <br>
+      <input type="submit" name="submit" value="Submit">
+    </form><br>
+  </section>
+  <footer>&copy; 2018 Camper Cat</footer>
+</body>
+
+//144
+
+{/* /* Use tabindex to Specify the Order of Keyboard Focus for Several Elements
+The tabindex attribute also specifies the exact tab order of elements. This is achieved when the attribute's value is set to a positive number of 1 or higher.
+
+Setting a tabindex="1" will bring keyboard focus to that element first. Then it cycles through the sequence of specified tabindex values (2, 3, etc.), before moving to default and tabindex="0" items.
+
+It's important to note that when the tab order is set this way, it overrides the default order (which uses the HTML source). This may confuse users who are expecting to start navigation from the top of the page. This technique may be necessary in some circumstances, but in terms of accessibility, take care before applying it.
+
+Here's an example:
+
+<div tabindex="1">I get keyboard focus, and I get it first!</div>
+<div tabindex="2">I get keyboard focus, and I get it second!</div>
+Camper Cat has a search field on his Inspirational Quotes page that he plans to position in the upper right corner with CSS. He wants the search input and submit input form controls to be the first two items in the tab order. Add a tabindex attribute set to 1 to the search input, and a tabindex attribute set to 2 to the submit input.
+
+Another thing to note is that some browsers may place you in the middle of your tab order when an element is clicked. An element has been added to the page that ensures you will always start at the beginning of your tab order. */ */}
+
+
+///////////////////-------------------------------------------------////////////////////////////////
+
+<body>
+  <div tabindex="1" class="overlay"></div>
+  <header>
+    <h1>Even Deeper Thoughts with Master Camper Cat</h1>
+    <nav>
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">Blog</a></li>
+        <li><a href="">Training</a></li>
+      </ul>
+    </nav>
+  </header>
+  <form>
+    <label for="search">Search:</label>
+
+
+    <input tabindex="1" type="search" name="search" id="search">
+    <input tabindex="2" type="submit" name="submit" value="Submit" id="submit">
+
+
+  </form>
+  <h2>Inspirational Quotes</h2>
+  <blockquote>
+    <p>&ldquo;There's no Theory of Evolution, just a list of creatures I've allowed to live.&rdquo;<br>
+    - Chuck Norris</p>
+  </blockquote>
+  <blockquote>
+    <p>&ldquo;Wise men say forgiveness is divine, but never pay full price for late pizza.&rdquo;<br>
+    - TMNT</p>
+  </blockquote>
+  <footer>&copy; 2018 Camper Cat</footer>
+</body>
+<style>
+  body {
+    height: 100%;
+    margin: 0 !important;
+    padding: 8px;
+  }
+  .overlay {
+    margin: -8px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+</style>
+
+//145
+
+{/* Media Queries are a new technique introduced in CSS3 that change the presentation of content based on different viewport sizes. The viewport is a user's visible area of a web page, and is different depending on the device used to access the site.
+
+Media Queries consist of a media type, and if that media type matches the type of device the document is displayed on, the styles are applied. You can have as many selectors and styles inside your media query as you want.
+
+Here's an example of a media query that returns the content when the device's width is less than or equal to 100px:
+
+@media (max-width: 100px) { /* CSS Rules */ }
+{/* and the following media query returns the content when the device's height is more than or equal to 350px:
+
+@media (min-height: 350px) { /* CSS Rules */ }
+{/* Remember, the CSS inside the media query is applied only if the media type matches that of the device being used.
+
+Add a media query, so that the p tag has a font-size of 10px when the device's height is less than or equal to 800px. */}
+
+{/* //////////////-------------------------------------------------///////////////////// */} */} */}
+
+//146
+
+<style>
+  p {
+    font-size: 20px;
+  }
+
+  /* Only change code below this line */
+@media (max-height: 800px) {
+    p { font-size: 10px }
+  }
+  /* Only change code above this line */
+</style>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis tempus massa. Aenean erat nisl, gravida vel vestibulum cursus, interdum sit amet lectus. Sed sit amet quam nibh. Suspendisse quis tincidunt nulla. In hac habitasse platea dictumst. Ut sit amet pretium nisl. Vivamus vel mi sem. Aenean sit amet consectetur sem. Suspendisse pretium, purus et gravida consequat, nunc ligula ultricies diam, at aliquet velit libero a dui.</p>
+
+//147
+
+{/* Making images responsive with CSS is actually very simple. You just need to add these properties to an image:
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+The max-width of 100% will make sure the image is never wider than the container it is in, and the height of auto will make the image keep its original aspect ratio.
+
+Add the style rules to the responsive-img class to make it responsive. It should never be wider than its container (in this case, it's the preview window) and it should keep its original aspect ratio. After you have added your code, resize the preview to see how your images behave. */}
+
+{/* //////////////////----------------------------------------------///////////////////////////// */}
+
+<style>
+.responsive-img {
+  max-width: 100%;
+  height: auto;
+}
+
+img {
+  width: 600px;
+}
+</style>
+
+<img class="responsive-img" src="https://s3.amazonaws.com/freecodecamp/FCCStickerPack.jpg" alt="freeCodeCamp stickers set">
+<img src="https://s3.amazonaws.com/freecodecamp/FCCStickerPack.jpg" alt="freeCodeCamp stickers set">
+</img>
+
+//148
+
+{/* With the increase of internet connected devices, their sizes and specifications vary, and the displays they use could be different externally and internally. Pixel density is an aspect that could be different on one device from others and this density is known as Pixel Per Inch(PPI) or Dots Per Inch(DPI). The most famous such display is the one known as a "Retina Display" on the latest Apple MacBook Pro notebooks, and recently iMac computers. Due to the difference in pixel density between a "Retina" and "Non-Retina" displays, some images that have not been made with a High-Resolution Display in mind could look "pixelated" when rendered on a High-Resolution display.
+
+The simplest way to make your images properly appear on High-Resolution Displays, such as the MacBook Pros "retina display" is to define their width and height values as only half of what the original file is. Here is an example of an image that is only using half of the original height and width:
+
+<style>
+  img { height: 250px; width: 250px; }
+</style>
+<img src="coolPic500x500" alt="A most excellent picture">
+Set the width and height of the img tag to half of their original values. In this case, both the original height and the original width are 200px. */}
+
+{/* /////////////////////////---------------------------------///////////////////// */}
+
+
+<style>
+  img { height: 100px; width: 100px; }
+</style>
+
+<img src="https://s3.amazonaws.com/freecodecamp/FCCStickers-CamperBot200x200.jpg" alt="freeCodeCamp sticker that says 'Because CamperBot Cares'"></img>
+
+
+//149
+
+{/* Instead of using em or px to size text, you can use viewport units for responsive typography. Viewport units, like percentages, are relative units, but they are based off different items. Viewport units are relative to the viewport dimensions (width or height) of a device, and percentages are relative to the size of the parent container element.
+
+The four different viewport units are:
+
+vw (viewport width): 10vw would be 10% of the viewport's width.
+vh (viewport height): 3vh would be 3% of the viewport's height.
+vmin (viewport minimum): 70vmin would be 70% of the viewport's smaller dimension (height or width).
+vmax (viewport maximum): 100vmax would be 100% of the viewport's bigger dimension (height or width).
+Here is an example that sets a body tag to 30% of the viewport's width.
+
+body { width: 30vw; }
+Set the width of the h2 tag to 80% of the viewport's width and the width of the paragraph as 75% of the viewport's smaller dimension. */}
+
+{/* ////////////--------------------------------------------------//////////////////////////////// */}
+
+<style>
+  h2 { width: 80vw;
+   }
+
+   p{width: 75vmin;}
+</style>
+
+<h2>Importantus Ipsum</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis tempus massa. Aenean erat nisl, gravida vel vestibulum cursus, interdum sit amet lectus. Sed sit amet quam nibh. Suspendisse quis tincidunt nulla. In hac habitasse platea dictumst. Ut sit amet pretium nisl. Vivamus vel mi sem. Aenean sit amet consectetur sem. Suspendisse pretium, purus et gravida consequat, nunc ligula ultricies diam, at aliquet velit libero a dui.</p>
+
+//150
+
+flexbox
+
+{/* This section uses alternating challenge styles to show how to use CSS to position elements in a flexible way. First, a challenge will explain theory, then a practical challenge using a simple tweet component will apply the flexbox concept.
+
+Placing the CSS property display: flex; on an element allows you to use other flex properties to build a responsive page.
+
+Add the CSS property display to #box-container and set its value to flex. */}
+
+///////////////////-------------------------------------------------------/////////////////////////
+
+<style>
+  #box-container {
+    display: flex;
+    height: 500px;
+
+  }
+
+  #box-1 {
+    background-color: dodgerblue;
+    width: 50%;
+    height: 50%;
+  }
+
+  #box-2 {
+    background-color: orangered;
+    width: 50%;
+    height: 50%;
+  }
+</style>
+<div id="box-container">
+  <div id="box-1"></div>
+  <div id="box-2"></div>
+</div>
+
+//151
+
+{/* To the right is the tweet embed that will be used as a practical example. Some of the elements would look better with a different layout. The last challenge demonstrated display: flex. Here you'll add it to several components in the tweet embed to start adjusting their positioning.
+
+Add the CSS property display: flex to all of the following items - note that the selectors are already set up in the CSS:
+
+header, the header's .profile-name, the header's .follow-btn, the header's h3 and h4, the footer, and the footer's .stats. */}
+
+
+{/* ////////////////////-------------------------/////////////////////////// */}
+
+
+<style>
+  body {
+    font-family: Arial, sans-serif;
+  }
+  header {
+    display: flex;
+  }
+  header .profile-thumbnail {
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+  }
+  header .profile-name {
+    display: flex;
+    margin-left: 10px;
+  }
+  header .follow-btn {
+    display: flex;
+    margin: 0 0 0 auto;
+  }
+  header .follow-btn button {
+    border: 0;
+    border-radius: 3px;
+    padding: 5px;
+  }
+  header h3, header h4 {
+    display: flex;
+    margin: 0;
+  }
+  #inner p {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  #inner hr {
+    margin: 20px 0;
+    border-style: solid;
+    opacity: 0.1;
+  }
+  footer {
+    display: flex;
+  }
+  footer .stats {
+    display: flex;
+    font-size: 15px;
+  }
+  footer .stats strong {
+    font-size: 18px;
+  }
+  footer .stats .likes {
+    margin-left: 10px;
+  }
+  footer .cta {
+    margin-left: auto;
+  }
+  footer .cta button {
+    border: 0;
+    background: transparent;
+  }
+</style>
+<header>
+  <img src="https://freecodecamp.s3.amazonaws.com/quincy-twitter-photo.jpg" alt="Quincy Larson's profile picture" class="profile-thumbnail">
+  <div class="profile-name">
+    <h3>Quincy Larson</h3>
+    <h4>@ossia</h4>
+  </div>
+  <div class="follow-btn">
+    <button>Follow</button>
+  </div>
+</header>
+<div id="inner">
+  <p>I meet so many people who are in search of that one trick that will help them work smart. Even if you work smart, you still have to work hard.</p>
+  <span class="date">1:32 PM - 12 Jan 2018</span>
+  <hr>
+</div>
+<footer>
+  <div class="stats">
+    <div class="Retweets">
+      <strong>107</strong> Retweets
+    </div>
+    <div class="likes">
+      <strong>431</strong> Likes
+    </div>
+  </div>
+  <div class="cta">
+    <button class="share-btn">Share</button>
+    <button class="retweet-btn">Retweet</button>
+    <button class="like-btn">Like</button>
+  </div>
+</footer>
+
+//152
+
+{/* Adding display: flex to an element turns it into a flex container. This makes it possible to align any children of that element into rows or columns. You do this by adding the flex-direction property to the parent item and setting it to row or column. Creating a row will align the children horizontally, and creating a column will align the children vertically.
+
+Other options for flex-direction are row-reverse and column-reverse.
+
+Note: The default value for the flex-direction property is row.
+
+Add the CSS property flex-direction to the #box-container element, and give it a value of row-reverse. */}
+
+///////////////////////////-----------------------------------------------------//////////////////////////////////////////
+
+<style>
+  #box-container {
+    display: flex;
+    height: 500px;
+    flex-direction: row-reverse;
+  }
+  #box-1 {
+    background-color: dodgerblue;
+    width: 50%;
+    height: 50%;
+  }
+
+  #box-2 {
+    background-color: orangered;
+    width: 50%;
+    height: 50%;
+  }
+</style>
+
+<div id="box-container">
+  <div id="box-1"></div>
+  <div id="box-2"></div>
+</div>
+
+//153
+
+<style>
+  body {
+    font-family: Arial, sans-serif;
+  }
+  header {
+    display: flex;
+    flex-direction: row;
+  }
+  header .profile-thumbnail {
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+  }
+  header .profile-name {
+    display: flex;
+    margin-left: 10px;
+  }
+  header .follow-btn {
+    display: flex;
+    margin: 0 0 0 auto;
+  }
+  header .follow-btn button {
+    border: 0;
+    border-radius: 3px;
+    padding: 5px;
+  }
+  header h3, header h4 {
+    display: flex;
+    margin: 0;
+  }
+  #inner p {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  #inner hr {
+    margin: 20px 0;
+    border-style: solid;
+    opacity: 0.1;
+  }
+  footer {
+    display: flex;
+    flex-direction: row;
+  }
+  footer .stats {
+    display: flex;
+    font-size: 15px;
+  }
+  footer .stats strong {
+    font-size: 18px;
+  }
+  footer .stats .likes {
+    margin-left: 10px;
+  }
+  footer .cta {
+    margin-left: auto;
+  }
+  footer .cta button {
+    border: 0;
+    background: transparent;
+  }
+</style>
+<header>
+  <img src="https://freecodecamp.s3.amazonaws.com/quincy-twitter-photo.jpg" alt="Quincy Larson's profile picture" class="profile-thumbnail">
+  <div class="profile-name">
+    <h3>Quincy Larson</h3>
+    <h4>@ossia</h4>
+  </div>
+  <div class="follow-btn">
+    <button>Follow</button>
+  </div>
+</header>
+<div id="inner">
+  <p>I meet so many people who are in search of that one trick that will help them work smart. Even if you work smart, you still have to work hard.</p>
+  <span class="date">1:32 PM - 12 Jan 2018</span>
+  <hr>
+</div>
+<footer>
+  <div class="stats">
+    <div class="Retweets">
+      <strong>107</strong> Retweets
+    </div>
+    <div class="likes">
+      <strong>431</strong> Likes
+    </div>
+  </div>
+  <div class="cta">
+    <button class="share-btn">Share</button>
+    <button class="retweet-btn">Retweet</button>
+    <button class="like-btn">Like</button>
+  </div>
+</footer>
+
+//154
+
+{/* The last two challenges used the flex-direction property set to row. This property can also create a column by vertically stacking the children of a flex container.
+
+Add the CSS property flex-direction to the #box-container element, and give it a value of column. */}
+
+//////////////////////////----------------------------------------------------///////////////////////
+
+<style>
+  #box-container {
+    display: flex;
+    height: 500px;
+    flex-direction: column;
+  }
+  #box-1 {
+    background-color: dodgerblue;
+    width: 50%;
+    height: 50%;
+  }
+
+  #box-2 {
+    background-color: orangered;
+    width: 50%;
+    height: 50%;
+  }
+</style>
+
+<div id="box-container">
+  <div id="box-1"></div>
+  <div id="box-2"></div>
+</div>
+
+//155
+
+{/*
+The tweet embed header and footer used the flex-direction property earlier with a row value. Similarly, the items inside the .profile-name element would work well stacked as a column.
+
+Add the CSS property flex-direction to the header's .profile-name element and set the value to column. */}
+
+////////////////////////----------------------------------------------/////////////////////////////////////////
+
+<style>
+  body {
+    font-family: Arial, sans-serif;
+  }
+  header, footer {
+    display: flex;
+    flex-direction: row;
+  }
+  header .profile-thumbnail {
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+  }
+  header .profile-name {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+  }
+  header .follow-btn {
+    display: flex;
+    margin: 0 0 0 auto;
+  }
+  header .follow-btn button {
+    border: 0;
+    border-radius: 3px;
+    padding: 5px;
+  }
+  header h3, header h4 {
+    display: flex;
+    margin: 0;
+  }
+  #inner p {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  #inner hr {
+    margin: 20px 0;
+    border-style: solid;
+    opacity: 0.1;
+  }
+  footer .stats {
+    display: flex;
+    font-size: 15px;
+  }
+  footer .stats strong {
+    font-size: 18px;
+  }
+  footer .stats .likes {
+    margin-left: 10px;
+  }
+  footer .cta {
+    margin-left: auto;
+  }
+  footer .cta button {
+    border: 0;
+    background: transparent;
+  }
+</style>
+<header>
+  <img src="https://freecodecamp.s3.amazonaws.com/quincy-twitter-photo.jpg" alt="Quincy Larson's profile picture" class="profile-thumbnail">
+  <div class="profile-name">
+    <h3>Quincy Larson</h3>
+    <h4>@ossia</h4>
+  </div>
+  <div class="follow-btn">
+    <button>Follow</button>
+  </div>
+</header>
+<div id="inner">
+  <p>I meet so many people who are in search of that one trick that will help them work smart. Even if you work smart, you still have to work hard.</p>
+  <span class="date">1:32 PM - 12 Jan 2018</span>
+  <hr>
+</div>
+<footer>
+  <div class="stats">
+    <div class="Retweets">
+      <strong>107</strong> Retweets
+    </div>
+    <div class="likes">
+      <strong>431</strong> Likes
+    </div>
+  </div>
+  <div class="cta">
+    <button class="share-btn">Share</button>
+    <button class="retweet-btn">Retweet</button>
+    <button class="like-btn">Like</button>
+  </div>
+</footer>
+
+//156
+
+{/* Sometimes the flex items within a flex container do not fill all the space in the container. It is common to want to tell CSS how to align and space out the flex items a certain way. Fortunately, the justify-content property has several options to do this. But first, there is some important terminology to understand before reviewing those options.
+
+For more info about flex-box properties read here
+
+Recall that setting a flex container as a row places the flex items side-by-side from left-to-right. A flex container set as a column places the flex items in a vertical stack from top-to-bottom. For each, the direction the flex items are arranged is called the main axis. For a row, this is a horizontal line that cuts through each item. And for a column, the main axis is a vertical line through the items.
+
+There are several options for how to space the flex items along the line that is the main axis. One of the most commonly used is justify-content: center;, which aligns all the flex items to the center inside the flex container. Other options include:
+
+flex-start: aligns items to the start of the flex container. For a row, this pushes the items to the left of the container. For a column, this pushes the items to the top of the container. This is the default alignment if no justify-content is specified.
+flex-end: aligns items to the end of the flex container. For a row, this pushes the items to the right of the container. For a column, this pushes the items to the bottom of the container.
+space-between: aligns items to the center of the main axis, with extra space placed between the items. The first and last items are pushed to the very edge of the flex container. For example, in a row the first item is against the left side of the container, the last item is against the right side of the container, then the remaining space is distributed evenly among the other items.
+space-around: similar to space-between but the first and last items are not locked to the edges of the container, the space is distributed around all the items with a half space on either end of the flex container.
+space-evenly: Distributes space evenly between the flex items with a full space at either end of the flex container.
+An example helps show this property in action. Add the CSS property justify-content to the #box-container element, and give it a value of center.
+
+Bonus
+Try the other options for the justify-content property in the code editor to see their differences. But note that a value of center is the only one that will pass this challenge. */}
+
+
+//////////////////////////////////////////---------------------------------------------------------------------//////////////////////////////////
+
+
+<style>
+  #box-container {
+    background: gray;
+    display: flex;
+    height: 500px;
+    justify-content: center;
+  }
+  #box-1 {
+    background-color: dodgerblue;
+    width: 25%;
+    height: 100%;
+  }
+
+  #box-2 {
+    background-color: orangered;
+    width: 25%;
+    height: 100%;
+  }
+</style>
+
+<div id="box-container">
+  <div id="box-1"></div>
+  <div id="box-2"></div>
+</div>
+
+//157
+
+{/* The last challenge showed an example of the justify-content property. For the tweet embed, this property can be applied to align the items in the .profile-name element.
+
+Add the CSS property justify-content to the header's .profile-name element and set the value to any of the options from the last challenge. */}
+
+/////////////////////////////---------------------------------------------------------///////////////////////////////////
+
+<style>
+  body {
+    font-family: Arial, sans-serif;
+  }
+  header, footer {
+    display: flex;
+    flex-direction: row;
+  }
+  header .profile-thumbnail {
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+  }
+  header .profile-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+  }
+  header .follow-btn {
+    display: flex;
+    margin: 0 0 0 auto;
+  }
+  header .follow-btn button {
+    border: 0;
+    border-radius: 3px;
+    padding: 5px;
+  }
+  header h3, header h4 {
+    display: flex;
+    margin: 0;
+  }
+  #inner p {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  #inner hr {
+    margin: 20px 0;
+    border-style: solid;
+    opacity: 0.1;
+  }
+  footer .stats {
+    display: flex;
+    font-size: 15px;
+  }
+  footer .stats strong {
+    font-size: 18px;
+  }
+  footer .stats .likes {
+    margin-left: 10px;
+  }
+  footer .cta {
+    margin-left: auto;
+  }
+  footer .cta button {
+    border: 0;
+    background: transparent;
+  }
+</style>
+<header>
+  <img src="https://freecodecamp.s3.amazonaws.com/quincy-twitter-photo.jpg" alt="Quincy Larson's profile picture" class="profile-thumbnail">
+  <div class="profile-name">
+    <h3>Quincy Larson</h3>
+    <h4>@ossia</h4>
+  </div>
+  <div class="follow-btn">
+    <button>Follow</button>
+  </div>
+</header>
+<div id="inner">
+  <p>I meet so many people who are in search of that one trick that will help them work smart. Even if you work smart, you still have to work hard.</p>
+  <span class="date">1:32 PM - 12 Jan 2018</span>
+  <hr>
+</div>
+<footer>
+  <div class="stats">
+    <div class="Retweets">
+      <strong>107</strong> Retweets
+    </div>
+    <div class="likes">
+      <strong>431</strong> Likes
+    </div>
+  </div>
+  <div class="cta">
+    <button class="share-btn">Share</button>
+    <button class="retweet-btn">Retweet</button>
+    <button class="like-btn">Like</button>
+  </div>
+</footer>
+
+//158
+
+{/* The align-items property is similar to justify-content. Recall that the justify-content property aligned flex items along the main axis. For rows, the main axis is a horizontal line and for columns it is a vertical line.
+
+Flex containers also have a cross axis which is the opposite of the main axis. For rows, the cross axis is vertical and for columns, the cross axis is horizontal.
+
+CSS offers the align-items property to align flex items along the cross axis. For a row, it tells CSS how to push the items in the entire row up or down within the container. And for a column, how to push all the items left or right within the container.
+
+The different values available for align-items include:
+
+flex-start: aligns items to the start of the flex container. For rows, this aligns items to the top of the container. For columns, this aligns items to the left of the container.
+flex-end: aligns items to the end of the flex container. For rows, this aligns items to the bottom of the container. For columns, this aligns items to the right of the container.
+center: align items to the center. For rows, this vertically aligns items (equal space above and below the items). For columns, this horizontally aligns them (equal space to the left and right of the items).
+stretch: stretch the items to fill the flex container. For example, rows items are stretched to fill the flex container top-to-bottom. This is the default value if no align-items value is specified.
+baseline: align items to their baselines. Baseline is a text concept, think of it as the line that the letters sit on.
+An example helps show this property in action. Add the CSS property align-items to the #box-container element, and give it a value of center.
+
+Bonus
+Try the other options for the align-items property in the code editor to see their differences. But note that a value of center is the only one that will pass this challenge. */}
+
+////////////////////////////----------------------------------------------------------------//////////////////////////////////////////////////
+
+<style>
+  #box-container {
+    background: gray;
+    display: flex;
+    height: 500px;
+    align-items: center;
+  }
+  #box-1 {
+    background-color: dodgerblue;
+    width: 200px;
+    font-size: 24px;
+  }
+
+  #box-2 {
+    background-color: orangered;
+    width: 200px;
+    font-size: 18px;
+  }
+</style>
+
+<div id="box-container">
+  <div id="box-1"><p>Hello</p></div>
+  <div id="box-2"><p>Goodbye</p></div>
+</div>
+
+
+//159
+
+{/* The last challenge introduced the align-items property and gave an example. This property can be applied to a few tweet embed elements to align the flex items inside them.
+
+Add the CSS property align-items to the header's .follow-btn element. Set the value to center. */}
+
+///////////////////////////////---------------------------------------------------//////////////////////////////////
+
+<style>
+  body {
+    font-family: Arial, sans-serif;
+  }
+  header, footer {
+    display: flex;
+    flex-direction: row;
+  }
+  header .profile-thumbnail {
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+  }
+  header .profile-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+  }
+  header .follow-btn {
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 auto;
+  }
+  header .follow-btn button {
+    border: 0;
+    border-radius: 3px;
+    padding: 5px;
+  }
+  header h3, header h4 {
+    display: flex;
+    margin: 0;
+  }
+  #inner p {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  #inner hr {
+    margin: 20px 0;
+    border-style: solid;
+    opacity: 0.1;
+  }
+  footer .stats {
+    display: flex;
+    font-size: 15px;
+  }
+  footer .stats strong {
+    font-size: 18px;
+  }
+  footer .stats .likes {
+    margin-left: 10px;
+  }
+  footer .cta {
+    margin-left: auto;
+  }
+  footer .cta button {
+    border: 0;
+    background: transparent;
+  }
+</style>
+<header>
+  <img src="https://freecodecamp.s3.amazonaws.com/quincy-twitter-photo.jpg" alt="Quincy Larson's profile picture" class="profile-thumbnail">
+  <div class="profile-name">
+    <h3>Quincy Larson</h3>
+    <h4>@ossia</h4>
+  </div>
+  <div class="follow-btn">
+    <button>Follow</button>
+  </div>
+</header>
+<div id="inner">
+  <p>I meet so many people who are in search of that one trick that will help them work smart. Even if you work smart, you still have to work hard.</p>
+  <span class="date">1:32 PM - 12 Jan 2018</span>
+  <hr>
+</div>
+<footer>
+  <div class="stats">
+    <div class="Retweets">
+      <strong>107</strong> Retweets
+    </div>
+    <div class="likes">
+      <strong>431</strong> Likes
+    </div>
+  </div>
+  <div class="cta">
+    <button class="share-btn">Share</button>
+    <button class="retweet-btn">Retweet</button>
+    <button class="like-btn">Like</button>
+  </div>
+</footer>
+
+//160
+
+{/* CSS flexbox has a feature to split a flex container into multiple rows (or columns). By default, a flex container will fit all flex items together. For example, a row will all be on one line.
+
+However, using the flex-wrap property tells CSS to wrap items. This means extra items move into a new row or column. The break point of where the wrapping happens depends on the size of the items and the size of the container.
+
+CSS also has options for the direction of the wrap:
+
+nowrap: this is the default setting, and does not wrap items.
+wrap: wraps items onto multiple lines from top-to-bottom if they are in rows and left-to-right if they are in columns.
+wrap-reverse: wraps items onto multiple lines from bottom-to-top if they are in rows and right-to-left if they are in columns.
+The current layout has too many boxes for one row. Add the CSS property flex-wrap to the #box-container element, and give it a value of wrap. */}
+
+
+///////////////////////////////////////////-----------------------------------------------------------------------------------////////////////////////////
+
+
+<style>
+  #box-container {
+    background: gray;
+    display: flex;
+    height: 100%;
+    flex-wrap: wrap;
+  }
+  #box-1 {
+    background-color: dodgerblue;
+    width: 25%;
+    height: 50%;
+  }
+
+  #box-2 {
+    background-color: orangered;
+    width: 25%;
+    height: 50%;
+  }
+  #box-3 {
+    background-color: violet;
+    width: 25%;
+    height: 50%;
+  }
+  #box-4 {
+    background-color: yellow;
+    width: 25%;
+    height: 50%;
+  }
+  #box-5 {
+    background-color: green;
+    width: 25%;
+    height: 50%;
+  }
+  #box-6 {
+    background-color: black;
+    width: 25%;
+    height: 50%;
+  }
+</style>
+
+<div id="box-container">
+  <div id="box-1"></div>
+  <div id="box-2"></div>
+  <div id="box-3"></div>
+  <div id="box-4"></div>
+  <div id="box-5"></div>
+  <div id="box-6"></div>
+</div>
+
+//161
