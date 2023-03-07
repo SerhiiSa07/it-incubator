@@ -399,4 +399,65 @@ function grow(x) {
   }
   return result;
 }
-e;
+
+//34
+
+function shortcut(string) {
+  return string.split(/[aeiou]/g).join('');
+}
+
+//35
+
+var summation = function (num) {
+  let sum = 0;
+  for (let i = 0; i <= num; i++) {
+    sum += i;
+  }
+  return sum; // Code here
+};
+
+//36
+
+const square = function (x) {
+  return x * x;
+};
+
+//37
+
+function saleHotdogs(n) {
+  if (n < 5) return n * 100;
+  else if (n >= 5 && n < 10) return n * 95;
+  else return n * 90;
+}
+
+//38
+
+function removeExclamationMarks(s) {
+  return s.replaceAll('!', '');
+}
+
+//39
+
+var countSquares = function (cuts) {
+  {
+    return cuts == 0 ? 1 : 6 * cuts * cuts + 2;
+  }
+};
+
+//40
+
+function multiply(a, b) {
+  return a * b;
+}
+
+//41
+
+String.prototype.toAlternatingCase = function () {
+  var ns = '';
+  for (var i = 0; i < this.length; i++)
+    ns +=
+      this.slice(i, i + 1) == this.slice(i, i + 1).toUpperCase()
+        ? this.slice(i, i + 1).toLowerCase()
+        : this.slice(i, i + 1).toUpperCase();
+  return ns; // Define your method here :)
+};
