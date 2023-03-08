@@ -461,3 +461,57 @@ String.prototype.toAlternatingCase = function () {
         : this.slice(i, i + 1).toUpperCase();
   return ns; // Define your method here :)
 };
+
+//42
+
+function sumStr(a, b) {
+  return (+a + +b).toString();
+}
+
+//43
+
+function getAge(inputString) {
+  return Number(inputString[0]); // return the girl's correct age as an integer. Happy coding :)
+}
+
+//44
+
+const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
+  return mpg * fuelLeft >= distanceToPump ? true : false;
+  // TODO
+};
+
+//45
+
+function isPalindrome(x) {
+  var re = /[\W_]/g;
+  var lowRegStr = x.toLowerCase().replace(re, '');
+  var reverseStr = lowRegStr.split('').reverse().join('');
+  return reverseStr === lowRegStr;
+  // your code here
+}
+
+//46
+
+function sumStr(a, b) {
+  return (+a + +b).toString();
+}
+
+//47
+
+function bmi(weight, height) {
+  let bmi = weight / (height ** 2)
+
+    if (bmi <= 18.5) {
+
+      return "Underweight";
+    } else if (bmi <= 25.0) {
+
+      return "Normal"
+    } else if (bmi <= 30.0) {
+
+      return "Overweight"
+    } else if (bmi > 30) {
+      return "Obese"
+    }
+
