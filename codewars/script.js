@@ -515,3 +515,83 @@ function bmi(weight, height) {
       return "Obese"
     }
 
+//48
+
+function htmlspecialchars(formData) {
+  let arr = [];
+  for (let i = 0; i < formData.length; i++){
+    if (formData[i] == '<'){
+      arr.push('&lt;');
+
+    } else if(formData[i] == '>'){
+      arr.push('&gt;');
+
+    } else if(formData[i] == '"'){
+      arr.push('&quot;');
+
+    } else if(formData[i] == '&'){
+      arr.push('&amp;');
+
+    } else {
+      arr.push(formData[i]);
+    }
+  }
+return arr.join('');// Insert your code here
+}
+
+//49
+
+a = "code"
+b = "wa.rs"
+name = a + b
+
+//50
+
+function switchItUp(number){
+  return ['Zero', 'One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine'][number];//Write your own Code!
+  }
+
+//51
+
+function addFive(num) {
+  var total = num + 5
+  return num + 5
+}
+
+//52
+
+function hoopCount (n) {
+  if (n >= 10) {
+   return "Great, now move on to tricks";
+ } else {
+   return "Keep at it until you get it";
+ }//your code goes here
+}
+
+//53
+
+function lovefunc(flower1, flower2){
+  if(flower1 % 2 == 0 && flower2 % 2 == 1){
+    return true;
+}
+ if(flower1 % 2 == 1 && flower2 % 2 == 0){
+   return true;
+}
+else{
+    return false;
+    }// moment of truth
+}
+
+//53
+
+function areYouPlayingBanjo(name) {
+  if (name[0] === 'R' || name[0] === 'r') {
+    return `${name} plays banjo`;
+  } else {
+    return `${name} does not play banjo`;
+  }// Implement me
+  return name;
+}
+
+//54
+
