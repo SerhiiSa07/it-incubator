@@ -595,3 +595,75 @@ function areYouPlayingBanjo(name) {
 
 //54
 
+function buildString(...template){
+  return `I like ${template.join(', ')}!`
+
+}
+
+//55
+
+var laLigaGoals = 43;
+var championsLeagueGoals = 10;
+var copaDelReyGoals = 5;
+
+var totalGoals = laLigaGoals + championsLeagueGoals + copaDelReyGoals;
+
+//56
+
+function removeChar(str){
+  //You got this!
+ return str.slice(1, -1)
+ };
+
+ //57
+
+ function problem(x){
+  let result = x * 50 + 6;
+  if (isNaN(x) || x === '') {
+    return 'Error';
+  } else {
+    return result;
+  }//your code here
+}
+
+//58
+
+function abbrevName(name){
+  return (
+     name
+       // split the name into two words
+       .split(" ")
+
+       // take first char of both parts and capitalize them
+       .map((part) => part[0].toUpperCase())
+
+       // join both characters with a dot
+       .join(".")
+   );// code away
+ }
+
+ //59
+
+ function fixTheMeerkat(arr) {
+  var end = arr.shift();
+ var begin = arr.pop();
+
+ arr.push(end);
+ arr.unshift(begin);
+
+ return arr;//your code here
+ }
+
+//60
+
+function monkeyCount(n) {
+  var monkey = [];
+    for (i = 1; i <= n; i++) {
+      monkey.push(i);
+    }
+    return monkey;// your code here
+  }
+
+//61
+
+
