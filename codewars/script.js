@@ -666,4 +666,77 @@ function monkeyCount(n) {
 
 //61
 
+function sumOfDifferences(arr) {
+  return arr
+    .sort((a, b) => b - a)
+    .reduce((acc, curr, index, array) => {
+      const next = array[index + 1];
+      if (!isNaN(curr - next)) {
+        acc += curr - next;
+      }
+      return acc;
+    }, 0);
+}
+
+//62
+
+function squareArea(A){
+  return Number(Math.pow((A * 4) / (Math.PI * 2), 2).toFixed(2));
+ }
+
+ //63
+
+ function enough(cap, on, wait) {
+  return (on + wait < cap) ? 0 : on + wait - cap;// your code here
+}
+
+//64
+
+class Kata {
+  static getVolumeOfCuboid(length, width, height) {
+    return length * width * height// your code here
+  }
+}
+
+//65
+
+function doubleInteger(i) {
+  // i will be an integer. Double it and return it.
+  return 2 * i;
+}
+
+//66
+
+function basicOp(operation, value1, value2)
+{
+  if (operation == '+'){
+        return value1+value2};
+    if (operation == '-'){
+        return value1-value2};
+    if (operation == '*'){
+        return value1*value2};
+    if (operation == '/')
+        {return value1/value2};
+  // Code
+}
+
+//67
+
+function quadratic(x1, x2){
+  return [1, -(x2 + x1), x1 * x2];
+}
+
+//68
+
+function check(a, x) {
+  for (var i = 0; i < a.length; i++) {
+         if (a[i] === x) {
+             return true;
+         }
+     }
+     return false; // your code here
+ }
+
+//69
+
 
