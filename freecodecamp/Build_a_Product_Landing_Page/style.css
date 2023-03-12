@@ -1,0 +1,11 @@
+.flex-container {
+  display: flex;
+}
+
+#nav-bar {
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  top: 0%;
+  background-color: #92869c;
+}
