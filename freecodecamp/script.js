@@ -177,3 +177,57 @@ function myFunc() {
     console.log('Still going!');
   }
 }
+
+//22
+
+function convertCtoF(celsius) {
+  let fahrenheit = celsius * (9 / 5) + 32;
+  return fahrenheit;
+}
+
+convertCtoF(30);
+
+//23
+
+function reverseString(str) {
+  return str.split('').reverse().join('');
+}
+
+reverseString('hello');
+
+//24
+
+function factorialize(num) {
+  if (num < 0) {
+    return -1;
+  } else if (num === 0) {
+    return 1;
+  } else {
+    return num * factorialize(num - 1);
+  }
+}
+
+factorialize(5);
+
+//25
+
+function findLongestWordLength(str) {
+  str = str.split(' ');
+  var size = 0;
+  for (var i = 0; i < str.length; i++) {
+    if (str[i].length > size) {
+      size = str[i].length;
+    }
+  }
+  return size;
+}
+
+findLongestWordLength('The quick brown fox jumped over the lazy dog');
+
+//26
+
+function booWho(bool) {
+  return bool === true || bool === false;
+}
+
+booWho(null);

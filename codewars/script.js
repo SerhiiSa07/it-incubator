@@ -799,5 +799,52 @@ return Math.floor(convert);
 
 //72
 
+function points(games) {
+  var i = 0;
+    var points = 0;
+    for (i; i < games.length; i++) {
+        let each = games[i].split(":");
+        if (each[0] > each[1]) {
+            points += 3;
+        } else if (each[0] == each[1]) {
+            points += 1;
+        } else {
+            points += 0;
+        }
+    }
+    return points;
+}
 
+//73
 
+function shark(pontoonDistance, sharkDistance, youSpeed, sharkSpeed, dolphin){
+  let timeToPontoonPeople = pontoonDistance / youSpeed;
+    let timeToPontoonShark = sharkDistance / sharkSpeed;
+    let timeHalfSharkSpeed = sharkDistance / (sharkSpeed / 2);
+    let timeDifferenceWithDolphin = timeHalfSharkSpeed - timeToPontoonPeople;
+    let timeDifferenceWithoutDolphin = timeToPontoonShark - timeToPontoonPeople;
+
+    if (sharkDistance < sharkSpeed) {
+      return "Shark Bait!";
+    } else if (pontoonDistance < youSpeed) {
+      return "Alive!";
+    }
+
+    if (dolphin === true && timeDifferenceWithDolphin > 0) {
+      return "Alive!";
+    } else if (dolphin === true && timeDifferenceWithDolphin < 0) {
+      return "Shark Bait!";
+    } else if (dolphin === false && timeDifferenceWithoutDolphin > 0) {
+      return "Alive!";
+    } else {
+      return "Shark Bait!";
+    }
+  }
+
+//74
+
+  function feast(beast, dish) {
+    return beast[0] === dish[0] && beast[beast.length - 1] === dish[dish.length - 1] ? true : false;//your function here
+    }
+
+//75
