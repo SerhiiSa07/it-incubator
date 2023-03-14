@@ -848,3 +848,39 @@ function shark(pontoonDistance, sharkDistance, youSpeed, sharkSpeed, dolphin){
     }
 
 //75
+
+function sameCase(a, b) {
+
+  if (a.match(/[a-z]/) && b.match(/[a-z]/)) {
+    return 1;
+  }
+  if (a.match(/[A-Z]/) && b.match(/[A-Z]/)) {
+    return 1;
+  }
+  if (b.match(/[a-z]/) && a.match(/[A-Z]/)) {
+    return 0;
+  }
+  if (a.match(/[a-z]/) && b.match(/[A-Z]/)) {
+    return 0;
+  }
+  return -1;
+}
+
+//76
+
+function multipleOfIndex(array) {
+  let res = [];
+
+	// loop over the array
+	for (let i = 0; i < array.length; i++) {
+		// check if the current element (array[i]) is a multiple of it's index (i) and if it is...
+		if (array[i] % i === 0) {
+			// add it to the resulting array
+			res.push(array[i]);
+		}
+	}
+
+	return res;// good luck
+}
+
+//77

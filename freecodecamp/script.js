@@ -231,3 +231,22 @@ function booWho(bool) {
 }
 
 booWho(null);
+
+//27
+
+function titleCase(str) {
+  let arr = str.split(' ');
+
+  let newStr = '';
+
+  for (let i = 0; i < arr.length; i++) {
+    let lower = arr[i].toLowerCase();
+    newStr += lower.charAt(0).toUpperCase() + lower.slice(1) + ' ';
+  }
+
+  return newStr.trim();
+}
+
+titleCase("I'm a little tea pot");
+
+//28
