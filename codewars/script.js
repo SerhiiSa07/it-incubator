@@ -884,3 +884,40 @@ function multipleOfIndex(array) {
 }
 
 //77
+
+function multipleOfIndex(array) {
+  let res = [];
+
+	// loop over the array
+	for (let i = 0; i < array.length; i++) {
+		// check if the current element (array[i]) is a multiple of it's index (i) and if it is...
+		if (array[i] % i === 0) {
+			// add it to the resulting array
+			res.push(array[i]);
+		}
+	}
+
+	return res;// good luck
+}
+
+//78
+
+function multiTable(number) {
+  return `1 * ${number} = ${1*number}
+2 * ${number} = ${2*number}
+3 * ${number} = ${3*number}
+4 * ${number} = ${4*number}
+5 * ${number} = ${5*number}
+6 * ${number} = ${6*number}
+7 * ${number} = ${7*number}
+8 * ${number} = ${8*number}
+9 * ${number} = ${9*number}
+10 * ${number} = ${10*number}`// good luck
+}
+
+//79
+
+function typeOfSum(a, b) {
+  return typeof(a + b);// good luck
+}
+
