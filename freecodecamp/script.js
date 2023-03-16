@@ -290,3 +290,34 @@ function getIndexToIns(arr, num) {
 }
 
 getIndexToIns([40, 60], 50);
+
+//31
+
+function mutation(arr) {
+  var item1 = arr[0].toLowerCase();
+  var item2 = arr[1].toLowerCase();
+
+  for (var i = 0; i < item2.length; i++) {
+    var match = item1.indexOf(item2[i]);
+
+    if (match === -1) {
+      return false;
+    }
+  }
+
+  return true;
+}
+
+mutation(['hello', 'hey']);
+
+//32
+
+function chunkArrayInGroups(arr, size) {
+  var results = [];
+  while (arr.length) {
+    results.push(arr.splice(0, size));
+  }
+  return results;
+}
+
+chunkArrayInGroups(['a', 'b', 'c', 'd'], 2);

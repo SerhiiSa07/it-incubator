@@ -921,3 +921,23 @@ function typeOfSum(a, b) {
   return typeof(a + b);// good luck
 }
 
+//80
+
+function excludingVatPrice(price){
+  if ( price == null ) {
+    return -1;
+    } else {
+    return +(price - (price / 115) * 15).toFixed(2);
+    }// your code
+
+}
+
+//81
+
+function maps(x){
+  let newArr = [];
+      for(let i = 0; i < x.length; i++){
+          newArr.push(x[i] * 2);
+      }
+      return newArr;
+  }
