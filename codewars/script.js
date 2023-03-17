@@ -941,3 +941,23 @@ function maps(x){
       }
       return newArr;
   }
+
+  //82
+
+  function move (position, roll) {
+    return position + roll * 2// return the new position
+  }
+
+  //83
+
+  function removeEveryOther(arr){
+    let result = [];
+    for (let i = 0; i < arr.length; i+=2) {
+      result.push(arr[i]);
+    }
+    return result;//your code here
+  }
+
+  //84
+
+

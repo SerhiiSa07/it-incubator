@@ -321,3 +321,31 @@ function chunkArrayInGroups(arr, size) {
 }
 
 chunkArrayInGroups(['a', 'b', 'c', 'd'], 2);
+
+//33
+
+let dog = {
+  name: 'courage',
+  numLegs: 2,
+};
+
+//34
+
+let dog = {
+  name: 'Spot',
+  numLegs: 4,
+};
+console.log(dog.name);
+console.log(dog.numLegs); // Only change code below this line
+
+//35
+
+let dog = {
+  name: 'Spot',
+  numLegs: 4,
+  sayLegs: function () {
+    return 'This dog has ' + dog.numLegs + ' legs.';
+  },
+};
+
+dog.sayLegs();
