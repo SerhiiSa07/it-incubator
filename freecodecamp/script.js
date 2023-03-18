@@ -349,3 +349,70 @@ let dog = {
 };
 
 dog.sayLegs();
+
+//36
+
+function largestOfFour(arr) {
+  let answer = [];
+  // Go through each array using bracket notation to access them:
+  // arr[i]. Use Math.max() to pick out the largest number in each
+  // array. The spread operator "..." will make the elements
+  // of arr[i] be the arguments of Math.max().
+  // We are pushing each highest number to our answer array.
+  for (let i = 0; i < arr.length; i++) {
+    answer.push(Math.max(...arr[i]));
+  }
+  // Return answer, the array of the largest numbers.
+  return answer;
+}
+
+largestOfFour([
+  [4, 5, 1, 3],
+  [13, 27, 18, 26],
+  [32, 35, 37, 39],
+  [1000, 1001, 857, 1],
+]);
+
+//37
+
+function confirmEnding(str, target) {
+  var newStr = '';
+
+  newStr = str.substring(str.length - target.length);
+
+  return newStr === target;
+}
+
+confirmEnding('Bastian', 'n');
+
+//38
+
+function repeatStringNumTimes(str, num) {
+  let newStr = '';
+
+  // with a 'for' loop
+  //   for (i = 0; i < num; i++) {
+  //     newStr += str;
+  //   }
+
+  // with a 'while' loop
+  while (num > 0) {
+    newStr += str;
+    num--;
+  }
+  return newStr;
+}
+
+repeatStringNumTimes('abc', 3);
+
+//39
+
+function truncateString(str, num) {
+  if (str.length <= num) {
+    return str;
+  }
+  // Return str truncated with '...' concatenated to the end of str.
+  return str.slice(0, num) + '...';
+}
+
+truncateString('A-tisket a-tasket A green and yellow basket', 8);

@@ -960,4 +960,60 @@ function maps(x){
 
   //84
 
+function DNAtoRNA(dna) {
+   return dna.replace(/T/g, 'U');// create a function which returns an RNA sequence from the given DNA sequence
+}
+
+//85
+
+function pillars(numPill, dist, width) {
+  return (numPill > 1 ? (numPill-2) * width + (numPill - 1) * dist * 100 : 0)// your code here
+}
+
+//86
+
+function amIWilson(p) {
+  p = BigInt(p)
+  return ((factorial(p - 1n)) + 1n) % (p * p) == 0n
+}
+function factorial(x) {
+  if (x <= 1n){
+    return 1n
+  }
+  return x * factorial(x - 1n)
+}
+
+//87
+
+function howManydays(month){
+  let days;
+ switch (month){
+ case 2:
+ days=28;
+ break;
+ case 4:
+ case 6:
+ case 9:
+ case 11:
+ days=30;
+ break;
+ case 2:
+ days=28;
+ break;
+ default:
+ days=31;
+ }
+ return days;
+ }
+
+ //88
+
+ function findMultiples(integer, limit) {
+  return Array.from({length: parseInt(limit / integer)}, (_,index) => (index + 1) * integer)//your code here
+}
+
+//89
+
+const min = (list) => Math.min(...list);
+const max = (list) => Math.max(...list);
 
