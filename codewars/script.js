@@ -1017,3 +1017,22 @@ function howManydays(month){
 const min = (list) => Math.min(...list);
 const max = (list) => Math.max(...list);
 
+//90
+
+unction firstNonConsecutive (arr) {
+  for (let i = 0; i <arr.length-1; i++){
+      if(arr[i+1] != arr[i]+1){
+        return arr[i+1];
+      }
+    }
+    return null;
+  }
+
+//91
+
+function greet(name){
+  return "Hello, " + name + " how are you doing today?"//your code here
+}
+
+//92
+

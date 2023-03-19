@@ -416,3 +416,17 @@ function truncateString(str, num) {
 }
 
 truncateString('A-tisket a-tasket A green and yellow basket', 8);
+
+//40
+
+let str = 'one two three';
+let fixRegex = /(\w+) (\w+) (\w+)/g; // Change this line
+let replaceText = '$3 $2 $1'; // Change this line
+let result = str.replace(fixRegex, replaceText);
+
+//41
+
+let hello = "   Hello, World!  ";
+let wsRegex = /^(\s+)(.+[^\s])(\s+)$/; // Change this line
+let result = hello.replace(wsRegex, '$2'); // Change this line
+
