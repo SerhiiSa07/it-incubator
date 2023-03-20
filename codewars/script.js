@@ -1036,3 +1036,28 @@ function greet(name){
 
 //92
 
+String.prototype.isUpperCase = function(string) {
+  return String(this) === this.toUpperCase();// your code here
+}
+
+//93
+
+function countPositivesSumNegatives(input) {
+  let positiveNums = 0;
+    let negativeNums = 0;
+    if (input === null || input.length === 0) {
+      return [];
+    } else {
+      input.forEach((num) => num > 0 ? positiveNums++ : negativeNums += num);
+    }
+    return [positiveNums , negativeNums];// your code here
+}
+
+//94
+
+function oddCount(n){
+  return Math.floor(n/2)// your code here
+}
+
+//95
+

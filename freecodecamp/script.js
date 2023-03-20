@@ -426,7 +426,31 @@ let result = str.replace(fixRegex, replaceText);
 
 //41
 
-let hello = "   Hello, World!  ";
+let hello = '   Hello, World!  ';
 let wsRegex = /^(\s+)(.+[^\s])(\s+)$/; // Change this line
 let result = hello.replace(wsRegex, '$2'); // Change this line
 
+//42
+
+let a = 5;
+let b = 1;
+a++;
+console.log(a); // Only change code below this line
+
+let sumAB = a + b;
+console.log(sumAB);
+
+//43
+
+let output =
+  'Get this to show once in the freeCodeCamp console and not at all in the browser console';
+console.log(output);
+console.clear();
+
+//44
+
+let ohStr = 'Ohhh no';
+let ohRegex = /Oh{3,6} no/; // Change this line
+let result = ohRegex.test(ohStr);
+
+//45
