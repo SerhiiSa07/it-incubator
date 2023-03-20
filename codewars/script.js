@@ -1061,3 +1061,45 @@ function oddCount(n){
 
 //95
 
+function twiceAsOld(dadYearsOld, sonYearsOld) {
+  let twice = dadYearsOld - sonYearsOld * 2;
+return twice < 0 ? twice * (-1) : twice;// your code here
+}
+
+//96
+
+function remainder(n, m){
+  if (n > m) {
+     let answer = n % m;
+     if (m === 0) {
+       return NaN;
+     }
+     else {
+       return answer;
+     }
+   }
+   else if (m > n) {
+     let answer = m % n;
+     if (n === 0) {
+       return NaN;
+     }
+     else {
+       return answer;
+     }
+   }
+   else {
+     let answer = n % m;
+     return answer;
+   }
+   // Divide the larger argument by the smaller argument and return the remainder
+
+ }
+
+//97
+
+ function unusualFive() {
+  return ['one','two','three','four','five'].length;
+}
+
+//98
+

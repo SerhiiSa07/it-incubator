@@ -454,3 +454,49 @@ let ohRegex = /Oh{3,6} no/; // Change this line
 let result = ohRegex.test(ohStr);
 
 //45
+
+let myString = 'Eleanor Roosevelt';
+let myRegex = /(Franklin D.|Eleanor) Roosevelt/; // Change this line
+let result = myRegex.test(myString); // Change this line
+// After passing the challenge experiment with myString and see how the grouping works
+
+//46
+
+let repeatNum = '42 42 42';
+let reRegex = /^(\d+) \1 \1$/; // Change this line
+let result = reRegex.test(repeatNum);
+result = repeatNum.match(reRegex);
+
+//47
+
+function findElement(arr, func) {
+  let num = 0;
+  return arr.filter(func)[0];
+}
+
+findElement([1, 2, 3, 4], (num) => num % 2 === 0);
+
+//48
+
+function booWho(bool) {
+  if (bool === true || bool === false) {
+    return true;
+  }
+  return false;
+}
+
+booWho(null);
+
+//49
+
+let dog = {
+  name: 'Spot',
+  numLegs: 4,
+  sayLegs: function () {
+    return 'This dog has ' + this.numLegs + ' legs.';
+  },
+};
+
+dog.sayLegs();
+
+//50
