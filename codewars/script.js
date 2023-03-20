@@ -1103,3 +1103,35 @@ function remainder(n, m){
 
 //98
 
+function expressionMatter(a, b, c) {
+  let output = [];
+  output.push(a *(b + c));
+  output.push(a * b * c);
+  output.push(a + b * c);
+  output.push((a + b) * c);
+  output.push(a+b+c);
+    return Math.max(...output); // highest achievable result
+}
+
+//99
+
+function testEven(n) {
+  return (n % 2) == 0;//Your awesome code here!
+}
+
+//100
+
+function evalObject(value){
+  switch(value.operation){
+    case'+': return value.a + value.b;
+    case'-': return value.a - value.b;
+    case'/': return value.a / value.b;
+    case'*': return value.a * value.b;
+    case'%': return value.a % value.b;
+    case'^': return Math.pow(value.a, value.b);
+  }
+}
+
+//101
+
+
