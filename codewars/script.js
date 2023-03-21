@@ -1134,4 +1134,73 @@ function evalObject(value){
 
 //101
 
+function mouthSize(animal) {
+  return (animal.toLowerCase() === 'alligator')? "small" : "wide"// code here
+}
+
+//102
+
+function index(array, n){
+  return (array.length <= n) ? -1 : Math.pow(array[n], n) //your code here
+}
+
+//103
+
+function billboard(name, price = 30){
+  var a = name.length;
+  var tot = 0;
+  for(i = 1; i <= a; i++){
+  tot += price;
+  }
+  return tot
+  }
+
+//104
+
+function distinct(a) {
+  var unique = [];
+        a.forEach(element => {
+            if (!unique.includes(element)) {
+                unique.push(element);
+            }
+        });
+        return unique;
+}
+
+//105
+
+const areaOrPerimeter = function(l , w) {
+  if (l == w){
+        return l * w}
+    else
+        {return 2 * (l + w)}// Return your answer
+};
+
+//106
+
+function boolToWord( bool ){
+  if(bool === true){
+    return "Yes"
+    }
+  else{
+    return "No"
+  }//...
+}
+
+//107
+
+function seatsInTheater(nCols, nRows, col, row) {
+  let totalSeats = nCols * nRows;
+
+  /* Calculate cols and rows behind my seat
+     Add one to col because my people behind me in my col are  counted
+  */
+  let newColNumber = nCols - col + 1;
+  let newRowNumber = nRows - row;
+  // Calculate area of seats behind me
+  let peopleBehindMe = newColNumber * newRowNumber;
+  return peopleBehindMe;//coding and coding..
+}
+
+//108
 

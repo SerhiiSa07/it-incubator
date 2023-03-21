@@ -500,3 +500,36 @@ let dog = {
 dog.sayLegs();
 
 //50
+
+let yourArray = ['thirty', 2007, true, 26, 'love'];
+// Change this line
+
+//51
+
+let myArray = ['a', 'b', 'c', 'd'];
+let ourVariable = myArray[0]; // Only change code below this line
+myArray[1] = 'not b anymore';
+// Only change code above this line
+console.log(myArray);
+
+//52
+
+function mixedNumbers(arr) {
+  arr.unshift('I', 2, 'three'); // Only change code below this line
+  arr.push(7, 'VIII', 9); // Only change code above this line
+  return arr;
+}
+
+console.log(mixedNumbers(['IV', 5, 'six']));
+
+//53
+
+function popShift(arr) {
+  let popped = arr.pop(); // Change this line
+  let shifted = arr.shift(); // Change this line
+  return [shifted, popped];
+}
+
+console.log(popShift(['challenge', 'is', 'not', 'complete']));
+
+//54
