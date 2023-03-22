@@ -1204,3 +1204,113 @@ function seatsInTheater(nCols, nRows, col, row) {
 
 //108
 
+var hotpo = function(n){
+  var c = 0;
+
+while (n > 1) {
+  n = n % 2 ? 3 * n + 1 : n / 2;
+  c++;
+}
+
+return c; //Optional Handler to n = 0
+}
+
+//109
+
+function helloWorld(){
+  var str = "Hello World!"
+  console.log(str)
+}
+
+//110
+
+const toCsvText = array =>
+   array.join('\n')
+// good luck
+
+//111
+
+var Ball = function(ballType) {
+  this.ballType = ballType === undefined ? "regular" : "super";// your code goes here
+};
+
+//112
+
+const isSquareRootInteger = num => Number.isInteger(Math.sqrt(num))
+  const squareOrSquareRoot = array => array.map(num => (isSquareRootInteger(num) ? Math.sqrt(num) : num ** 2))
+
+//113
+
+function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
+  return laLigaGoals + copaDelReyGoals + championsLeagueGoals// code goes here
+}
+
+//114
+
+function checkAlive (health) {
+  if (health > 0) {
+    return true
+  } else {
+    return false
+  }
+}
+
+//115
+
+function greet (name, owner) {
+  if (name===owner){
+    return 'Hello boss'
+  } else {
+    return 'Hello guest'
+  }// Add code here
+}
+
+//116
+
+function rentalCarCost(d) {
+  let day = d >= 3 && d < 7 ? 20 : 0, // day discount
+      week = d >= 7 ? 50 : 0; // week discount
+
+  return (d * 40) - day - week;// Your solution here
+}
+
+//117
+
+function bonusTime(salary, bonus) {
+  if (bonus === true) { return `£${salary * 10}`
+  }
+    return `£${salary}`
+   // your code here
+  }
+
+//118
+
+function checkForFactor (base, factor) {
+  return base % factor == 0// code here
+}
+
+//119
+
+function countBy(x, n) {
+  var z = [];
+  for (let i = 1; i <= n ; i++){
+   z.push(x*i)
+  }
+
+  return z;
+}
+
+//120
+
+Object.freeze(MrFreeze)
+
+//121
+
+function stringToArray(string){
+
+	return string.trim().split(" ");// code code code
+
+}
+
+//122
+
