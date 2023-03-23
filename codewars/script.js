@@ -1314,3 +1314,69 @@ function stringToArray(string){
 
 //122
 
+websites.push("codewars");
+
+//123
+
+function binToDec(bin){
+  return bin.split('').reverse().reduce(function(x, y, i){
+      return (y === '1') ? x + Math.pow(2, i) : x;
+    }, 0);// ...
+}
+
+//124
+
+function opposite(number) {
+  let oppNum = 0 - number
+  return oppNum; //your code here
+  }
+
+//125
+
+function arrayPlusArray(arr1, arr2) {
+  return arr1.reduce(function (a,b){
+    return a+b;
+  },0) + arr2.reduce(function (a,b){
+    return a+b;
+  },0); //something went wrong
+}
+
+//126
+
+function getPlanetName(id){
+  var name;
+  switch(id){
+    case 1:
+      name = 'Mercury'
+      break;
+    case 2:
+      name = 'Venus'
+      break;
+    case 3:
+      name = 'Earth'
+      break;
+    case 4:
+      name = 'Mars'
+      break;
+    case 5:
+      name = 'Jupiter'
+      break;
+    case 6:
+      name = 'Saturn'
+      break;
+    case 7:
+      name = 'Uranus'
+      break;
+    case 8:
+      name = 'Neptune'
+  }
+
+  return name;
+}
+
+//127
+
+toBinary = (n) => +n.toString(2);
+
+//128
+

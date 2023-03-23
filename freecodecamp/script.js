@@ -585,3 +585,72 @@ function copyMachine(arr, num) {
 console.log(copyMachine([true, false, true], 2));
 
 //58
+
+function spreadOut() {
+  let fragment = ['to', 'code'];
+  let sentence;
+  sentence = ['learning', ...fragment, 'is', 'fun']; // Change this line
+  return sentence;
+}
+
+console.log(spreadOut());
+
+//59
+
+function quickCheck(arr, elem) {
+  // Only change code below this line
+  if (arr.indexOf(elem) >= 0) {
+    return true;
+  } else {
+    return false;
+  }
+  // Only change code above this line
+}
+
+console.log(quickCheck(['squash', 'onions', 'shallots'], 'mushrooms'));
+
+//60
+
+function filteredArray(arr, elem) {
+  let newArr = [];
+  // change code below this line
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i].indexOf(elem) === -1) {
+      newArr.push(arr[i]);
+    }
+  }
+  // Only change code above this line
+  return newArr;
+}
+
+console.log(
+  filteredArray(
+    [
+      [3, 2, 3],
+      [1, 6, 3],
+      [3, 13, 26],
+      [19, 3, 9],
+    ],
+    3
+  )
+);
+
+//61
+
+let myNestedArray = [
+  // Only change code below this line
+  ['unshift', false, 1, 2, 3, 'complex', 'nested'], //level 2
+  [
+    ['loop', 'shift', 6, 7, 1000, 'method', 'deep'], //level 3
+    [
+      ['concat', false, true, 'deeper', 'spread', 'array'], //level 4
+      [
+        ['deepest', 'mutate', 1327.98, 'splice', 'slice', 'push'], //level 5
+      ],
+    ],
+  ],
+  ['iterate', 1.3849, 7, '8.4876', 'arbitrary', 'depth'],
+  // Only change code above this line
+];
+
+//62
