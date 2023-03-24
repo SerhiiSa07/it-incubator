@@ -724,3 +724,96 @@ delete foods.foods;
 // Only change code above this line
 
 console.log(foods);
+
+//66
+
+let users = {
+  Alan: {
+    age: 27,
+    online: true,
+  },
+  Jeff: {
+    age: 32,
+    online: true,
+  },
+  Sarah: {
+    age: 48,
+    online: true,
+  },
+  Ryan: {
+    age: 19,
+    online: true,
+  },
+};
+
+function isEveryoneHere(userObj) {
+  // Only change code below this line
+  return 'Alan' in userObj &&
+    'Jeff' in userObj &&
+    'Sarah' in userObj &&
+    'Ryan' in userObj
+    ? true
+    : false;
+  // Only change code above this line
+}
+
+console.log(isEveryoneHere(users));
+
+//67
+
+const users = {
+  Alan: {
+    online: false,
+  },
+  Jeff: {
+    online: true,
+  },
+  Sarah: {
+    online: false,
+  },
+};
+
+function countOnline(usersObj) {
+  // Only change code below this line
+  let count = 0;
+  for (let user in usersObj) {
+    if (usersObj[user].online === true) {
+      count++;
+    }
+  }
+  return count;
+}
+// Only change code above this line
+
+console.log(countOnline(users));
+
+//67
+
+let users = {
+  Alan: {
+    age: 27,
+    online: false,
+  },
+  Jeff: {
+    age: 32,
+    online: true,
+  },
+  Sarah: {
+    age: 48,
+    online: false,
+  },
+  Ryan: {
+    age: 19,
+    online: true,
+  },
+};
+
+function getArrayOfUsers(obj) {
+  // Only change code below this line
+  return Object.keys(obj);
+  // Only change code above this line
+}
+
+console.log(getArrayOfUsers(users));
+
+//68
