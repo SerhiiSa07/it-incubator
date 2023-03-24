@@ -1380,3 +1380,49 @@ toBinary = (n) => +n.toString(2);
 
 //128
 
+function howMuchILoveYou(nbPetals) {
+   let arr = ["I love you", "a little", "a lot", "passionately", "madly", "not at all"];
+  for(let i = 0; i <= nbPetals; i++){
+    arr.push(arr[i]);
+  }
+  return arr[nbPetals - 1];// your code
+}
+
+//129
+
+var countSheep = function (num){
+  let str = "";
+   for (let i = 1; i <= num; i++){
+     str += `${i} sheep...`;
+   }
+   return str;//your code here
+ }
+
+//130
+
+function getGrade (s1, s2, s3) {
+  var score = (s1 + s2 + s3) / 3;
+  if (score >= 90 && score <= 100) {
+      return 'A';
+  } else if (score >= 80 ) {
+    return 'B';
+  } else if (score >= 70 ) {
+    return 'C';
+  } else if (score >= 60) {
+    return 'D';
+  } else{
+    return 'F';
+  }
+}
+
+//131
+
+function paperwork(n, m) {
+  if (n < 0 || m < 0){
+    return 0
+  }
+  return n*m;
+}
+
+//132
+
