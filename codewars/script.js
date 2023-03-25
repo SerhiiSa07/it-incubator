@@ -1426,3 +1426,61 @@ function paperwork(n, m) {
 
 //132
 
+function remove (string) {
+  //coding and coding....
+  return string.replace(/\!$/, '');
+}
+
+//133
+
+function digitize(n) {
+  return n.toString().split('').reverse().map(Number);//code here
+  }
+
+//134
+
+function Ship(draft,crew) {
+  this.draft = draft;
+  this.crew = crew;
+ this.isWorthIt = function() {
+     return this.draft - this.crew * 1.5 > 20;
+   }
+ }
+
+
+//135
+
+function makeUpperCase(str) {
+  return str.toUpperCase()// Code here
+}
+
+//136
+
+function dutyFree(normPrice, discount, hol){
+  return Math.floor(hol / (discount / 100.0 * normPrice));
+  }
+
+//137
+
+function makeNegative(num) {
+  if (num < 0 || num == 0){
+        return num;
+  }else (num > 0)
+        {return (num - (2 * num))} // Code?
+}
+
+//138
+
+function updateLight(current) {
+  if (current == 'green'){
+    return 'yellow';
+  }else if (current == 'yellow'){
+    return 'red';
+  }else if(current == 'red'){
+    return 'green';
+  } //your code here!
+
+}
+
+//139
+
