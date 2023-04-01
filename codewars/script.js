@@ -1515,3 +1515,41 @@ function apple(x){
 
   //143
 
+function sumMix(x){
+let sum = 0;
+    for (let i = 0; i < x.length; i++){
+      if (typeof x[i] === 'string'){
+        x[i] = Number(x[i])
+      }
+      sum += x[i];
+    }
+   return sum;
+}
+
+//144
+
+function nthEven(n){
+  return n * 2 - 2// your code here
+}
+
+//145
+
+function greet(name){
+  if(name === "Johnny"){
+    return "Hello, my love!";
+
+  }else
+    {return "Hello, " + name + "!";}
+}
+
+//146
+
+const playerRankUp = points =>
+  points >= 100 ? 'Well done! You have advanced to the qualifying stage. Win 2 out of your next 3 games to rank up.' : false;
+
+  //147
+
+const isReallyNaN = (val) => { return (Number.isNaN(val)) ? true : false; }
+
+//148
+
