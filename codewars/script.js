@@ -1553,3 +1553,26 @@ const isReallyNaN = (val) => { return (Number.isNaN(val)) ? true : false; }
 
 //148
 
+function betterThanAverage(classPoints, yourPoints) {
+  let sum = 0;
+   for (let i = 0; i < classPoints.length; i++) {
+     sum = sum + classPoints[i];
+   };
+  let average = sum / classPoints.length;
+  let result;
+  average < yourPoints ? result = true : result = false;
+
+  return result;// Your code here
+}
+
+
+//149
+
+function correctTail(body, tail)
+{
+  if (body[body.length - 1] === tail) {
+    return true;
+  } else {
+    return false;
+  }
+}
