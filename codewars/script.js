@@ -1582,3 +1582,23 @@ function correctTail(body, tail)
 function sayHello( name, city, state ) {
   return `Hello, ${name.join(' ')}! Welcome to ${city}, ${state}!`;
   }
+
+//151
+
+function defineSuit(card) {
+  var suit = card.substr(-1);
+   switch(suit){
+      case '♣': return 'clubs';
+      case '♦': return 'diamonds';
+      case '♥': return 'hearts';
+      default: return 'spades';
+   }// good luck
+}
+
+//152
+
+function stringClean(s){
+  return s.replace(/\d/g,"")// Function will return the cleaned string
+}
+
+//153
