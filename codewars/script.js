@@ -1576,3 +1576,9 @@ function correctTail(body, tail)
     return false;
   }
 }
+
+//150
+
+function sayHello( name, city, state ) {
+  return `Hello, ${name.join(' ')}! Welcome to ${city}, ${state}!`;
+  }
